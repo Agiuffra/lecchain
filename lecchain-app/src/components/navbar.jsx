@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./navbar.css";
 
-class Counter extends Component {
+class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-lecchain d-flex justify-content-between">
@@ -45,4 +45,4 @@ class Counter extends Component {
   }
 }
 
-export default Counter;
+export default Navbar;
