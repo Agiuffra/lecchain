@@ -1,13 +1,22 @@
 import React, { Component } from 'react'
-import Banner from 'react-banner'
-import 'react-banner/dist/style.css'
+import BannerAnim from 'rc-banner-anim';
+import QueueAnim from 'rc-queue-anim';
+import TweenOne from 'rc-tween-one';
+import Navbar from './navbar';
+import './banner.css';
 
+const { Element } = BannerAnim;
+const BgElement = Element.BgElement;
 
 class HomeBanner extends Component{
     render(){
         return (
-            <Banner
-                title="This is an example banner with CSS" />
+            <div class="home-banner">
+                <Navbar />
+                <div class="home-banner-text">
+                    <h1>Lecchain</h1>
+                </div>
+            </div>
         );
     }
 }

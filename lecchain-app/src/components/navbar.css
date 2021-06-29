@@ -3,11 +3,12 @@
 .navbar-lecchain {
   font-family: Audiowide;
   font-weight: bold;
-  background-color: white;
+  /*background-color: white;
+  background-color: white;*/
 }
 
 .navbar-link-lecchain {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .navbar-link-lecchain:hover {

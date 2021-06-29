@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+.footer-lecchain {
+  font-family: Audiowide;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.left-footer-lecchain {
+  width: 500px;
+}
+
+.right-footer-lecchain {
+  width: 500px;
+  display: flex;
+  padding: 0px 75px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link-footer-lecchain {
+  text-decoration: none;
+  color: rgb(123, 123, 123);
+}
+
+.link-footer-lecchain:hover {
+  color: #8ce2ff;
+}
