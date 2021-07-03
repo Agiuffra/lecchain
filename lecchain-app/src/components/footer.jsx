@@ -8,13 +8,13 @@ class Footer extends Component {
         <div className="left-footer-lecchain">
           <h4>CONTACT</h4>
           <div>
-            address:
+            address:{" "}
             <a className="link-footer-lecchain" href="">
               Jr. Medrano Silva 165, Barranco. Lima, Peru.
             </a>
           </div>
           <div>
-            e-mail:
+            e-mail:{" "}
             <a
               className="link-footer-lecchain"
               href="mailto:lecchain@utec.edu.pe"
@@ -23,7 +23,7 @@ class Footer extends Component {
             </a>
           </div>
           <div>
-            phone:
+            phone:{" "}
             <a className="link-footer-lecchain" href="tel:+51990044797">
               +51 990 044 797
             </a>

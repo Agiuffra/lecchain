@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { ReactComponent as lecchaincolorutec } from "../logo.svg";
 import "./navbar.css";
 
 class Navbar extends Component {
@@ -6,9 +7,9 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-lecchain d-flex justify-content-between">
         <a className="navbar-brand" href="#">
-          <img src="https://picsum.photos/100" alt="#" />
+          <lecchaincolorutec />
         </a>
-        <div className="d-flex justify-content-between ">
+        <div className="d-flex justify-content-between navbar-buttons-lecchain">
           <div className="mr-5 ml-5 navbar-sel-back-lecchain">
             <a className="navbar-link-lecchain" href="#">
               HOME <span className="sr-only">(current)</span>

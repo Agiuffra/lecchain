@@ -31,7 +31,13 @@
 }
 
 .navbar-nor-back-lecchain:hover {
-  background-color: rgba(143, 144, 146, 0.58);
+  background-color: rgba(86, 221, 252, 0.58);
+  height: 75px;
+  width: 75px;
+}
+
+.navbar-nor-back-lecchain:hover ~ .navbar-lecchain {
+  background-color: black;
 }
 
 .navbar-sel-back-lecchain {
