@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import './navbar.css';
+
+.home-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://os.alipayobjects.com/rmsportal/IhCNTqPpLeTNnwr.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+/* Place text in the middle of the image */
+.home-banner-text {
+  font-family: Amaranth;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
