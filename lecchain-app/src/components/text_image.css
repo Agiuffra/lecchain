@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
 .text-image {
     display: flex;
     position: relative;
     overflow: hidden;
     min-height: 50vh;
-    font-family: Audiowide;
+    font-family: "Open Sans";
     text-align: center;
     padding: 5% 3% 5% 3%;
 }
@@ -17,6 +17,7 @@
 }
 
 .block-a h1 {
+    font-family: Amaranth;
     padding-bottom: 2%;
     color: rgb(0, 191, 255);
     font-weight: bold;
