@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
 .collaborations-lecchain {
   display: flex;
-  font-family: Audiowide;
+  font-family: "Open Sans";
   background-color: #353535;
   color: white;
 }
@@ -17,6 +16,7 @@
 .collab-title-lecchain {
   margin: 20.5px 0px;
   text-align: center;
+  font-family: Amarath;
   color: rgba(86, 221, 252, 0.58);
 }
 
@@ -33,4 +33,8 @@
 .collab-content-image-txt-lecchain {
   text-align: center;
   padding: 0px 25px;
+}
+
+.collab-content-text-lecchain {
+  margin: 20px 0px;
 }
