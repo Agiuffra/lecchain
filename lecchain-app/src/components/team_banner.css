@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+.team-member {
+    display: block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 3% 5%;
+}
+
+.team-member img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.team-member h2 {
+    font-size: 1.8vw;
+}
+
+.team-member p {
+    font-size: 1.2vw;
+}
+
+.team-banner {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    min-height: 50vh;
+    font-family: Audiowide;
+    padding: 5% 3% 3% 3%;
+    background-color: rgb(0, 191, 255);
+}
+
+.team-banner .title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+
+.team-banner .title h1 {
+    font-size: 4vw;
+}
+
+.team-banner .content {
+    display: inline-flex;
+    min-height: 100%;
+    padding: 0% 10% 8% 10%;
+}
+
+.team-banner .content TeamMember {
+    display: flex;
+}
