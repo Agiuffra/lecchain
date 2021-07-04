@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import Footer from './components/footer';
+import Collaborations from './components/collaborations';
 import HomeBanner from './components/banner';
 import TextImage from './components/text_image';
 import TeamBanner from './components/team_banner';
 import Sponsors from './components/sponsors';
+
 import './App.css';
 
 class App extends Component {
