@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import BannerAnim from 'rc-banner-anim';
-import QueueAnim from 'rc-queue-anim';
-import TweenOne from 'rc-tween-one';
 import Navbar from '../general/navbar';
 import './banner.css';
 

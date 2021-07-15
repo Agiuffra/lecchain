@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import logo from "../logo-lecchain.png";
-import Project from "../pages/project";
+import logo from "../../logo-lecchain.png";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
