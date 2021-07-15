@@ -1,41 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
-.text-image {
-    display: flex;
+.text {
+    display: inline-block;
     position: relative;
     overflow: hidden;
     min-height: 50vh;
     font-family: "Open Sans";
     text-align: center;
-    padding: 5% 3% 5% 3%;
+    padding: 5% 10% 5% 10%;
 }
 
-.block-a {
-    width: 50%;
+.text .block-a {
+    width: 100%;
     height: 100%;
-    padding: 5% 3% 5% 3%;
 }
 
-.block-a h1 {
+.text .block-a h1 {
     font-family: Amaranth;
     padding-bottom: 2%;
     color: rgb(0, 191, 255);
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
-.block-a p {
+.text .block-a div p {
     font-size: 1.25vw;
+    color: rgb(255, 255, 255);
     margin-bottom: 0;
 }
 
-
-.block-b {
-    width: 50%;
-    padding: 0% 3% 0% 3%;
-}
-
-.block-b img {
+.text .block-a img {
+    padding: 0% 0% 3% 0%;
     width: 100%;
     height: 100%;
     border-radius: 1%;
