@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import HomeBanner from "./banner";
-import TextImage from "./text_image";
-import TeamBanner from "./team_banner";
-import Sponsors from "./sponsors";
-import Footer from "./footer";
+import HomeBanner from "./home/banner";
+import TextImage from "./home/text_image";
+import TeamBanner from "./home/team_banner";
+import Sponsors from "./home/sponsors";
+import Footer from "./general/footer";
 
 class Home extends Component {
   render() {

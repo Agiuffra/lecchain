@@ -16,7 +16,7 @@
   margin: 0 auto;
   height: auto;
   max-height: 75vh;
-  margin-top: calc(100vh - 85vh - 20px);
+  margin-top: calc(100vh - 80vh - 20px);
   background: rgba(143, 144, 146, 0.77);
   border-radius: 4px;
   padding: 20px;
@@ -29,7 +29,7 @@
   cursor: pointer;
   position: fixed;
   right: calc(15% - 30px);
-  top: calc(100vh - 85vh - 33px);
+  top: calc(100vh - 80vh - 33px);
   background: black;
   color: white;
   width: 25px;

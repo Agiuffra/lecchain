@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./students.css";
-import chelo from "./../data/img/Marcelo.jpeg";
+import chelo from "./../../data/img/Marcelo.jpeg";
 
 class Studentpop extends Component {
   handleClick = () => {

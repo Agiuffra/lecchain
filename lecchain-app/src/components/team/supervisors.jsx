@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./supervisors.css";
-import chelo from "./../data/img/Marcelo.jpeg";
+import chelo from "./../../data/img/Marcelo.jpeg";
 
 class Supervisorpop extends Component {
   handleClick = () => {

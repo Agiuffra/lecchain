@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./sponsorpop.css";
-import chelo from "./../data/img/Marcelo.jpeg";
+import chelo from "./../../data/img/Marcelo.jpeg";
 
 class Sponsorpop extends Component {
   handleClick = () => {
