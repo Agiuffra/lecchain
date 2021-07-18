@@ -18,19 +18,19 @@ class Collaborations extends Component {
           <div className="collab-content-lecchain">
             <div className="collab-content-images-lecchain">
               <div className="collab-content-image-lecchain">
-                <img src="https://via.placeholder.com/350" alt="" />
+                <img src="https://via.placeholder.com/250" alt="" />
                 <div className="collab-content-image-txt-lecchain">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
               </div>
               <div className="collab-content-image-lecchain">
-                <img src="https://via.placeholder.com/350" alt="" />
+                <img src="https://via.placeholder.com/250" alt="" />
                 <div className="collab-content-image-txt-lecchain">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
               </div>
               <div className="collab-content-image-lecchain">
-                <img src="https://via.placeholder.com/350" alt="" />
+                <img src="https://via.placeholder.com/250" alt="" />
                 <div className="collab-content-image-txt-lecchain">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
