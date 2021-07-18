@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lecchain/static/css/main.3d6b468a.chunk.css",
-    "main.js": "/lecchain/static/js/main.f381a105.chunk.js",
-    "main.js.map": "/lecchain/static/js/main.f381a105.chunk.js.map",
+    "main.js": "/lecchain/static/js/main.bbcfd0b8.chunk.js",
+    "main.js.map": "/lecchain/static/js/main.bbcfd0b8.chunk.js.map",
     "runtime-main.js": "/lecchain/static/js/runtime-main.4b03d2c2.js",
     "runtime-main.js.map": "/lecchain/static/js/runtime-main.4b03d2c2.js.map",
     "static/css/2.0743d325.chunk.css": "/lecchain/static/css/2.0743d325.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.0743d325.chunk.css",
     "static/js/2.40685bc7.chunk.js",
     "static/css/main.3d6b468a.chunk.css",
-    "static/js/main.f381a105.chunk.js"
+    "static/js/main.bbcfd0b8.chunk.js"
   ]
 }
