@@ -5,7 +5,7 @@ import Collabs from './components/page_collaborations';
 import Teams from './components/page_team';
 import NotFoundPage from './components/page_notfound';
 
-import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
 
 import './App.css';
 
