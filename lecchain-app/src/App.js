@@ -1,20 +1,27 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/home';
-import Collaborations from './pages/collaborations';
 import Project from './pages/project';
+import Collabs from './components/page_collaborations';
+import Teams from './components/page_team';
+import NotFoundPage from './components/page_notfound';
+
+import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
 
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-            <Switch>
-                <Route path="/" component={Home} exact />
-                <Route path="/project" component={Project} />
-            </Switch>
-      </BrowserRouter>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/project" component={Project} />
+          <Route exact path="/team" component={Teams} />
+          <Route exact path="/collaborations" component={Collabs} />
+          <Route exact path="/404" component={NotFoundPage} />
+          <Redirect to="/404" />
+        </Switch>
+      </Router>
     );
   }
 }
