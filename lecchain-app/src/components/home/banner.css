@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
-@import './navbar.css';
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import "./../general/navbar.css";
 
 .home-banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://os.alipayobjects.com/rmsportal/IhCNTqPpLeTNnwr.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://os.alipayobjects.com/rmsportal/IhCNTqPpLeTNnwr.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

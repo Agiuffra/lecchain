@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import teamData from "../data/people";
+import teamData from "../../data/people";
 import "./team_banner.css";
 import _ from "lodash";
 

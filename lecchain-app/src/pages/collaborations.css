@@ -2,6 +2,7 @@
 
 .collaborations-lecchain {
   display: flex;
+  height: 75vh;
   font-family: "Open Sans";
   background-color: #353535;
   color: white;
@@ -11,6 +12,13 @@
 .collab-right-arrow-lecchain {
   display: flex;
   justify-content: center;
+}
+
+.collab-content-lecchain {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  align-items: center;
 }
 
 .collab-title-lecchain {
@@ -28,6 +36,10 @@
 
 .collab-content-image-lecchain {
   text-align: center;
+}
+
+.collab-content-text-lecchain {
+  font-size: 24px;
 }
 
 .collab-content-image-txt-lecchain {

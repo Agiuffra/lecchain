@@ -18,19 +18,19 @@ class Collaborations extends Component {
           <div className="collab-content-lecchain">
             <div className="collab-content-images-lecchain">
               <div className="collab-content-image-lecchain">
-                <img src="https://via.placeholder.com/250" alt="" />
+                <img src="https://via.placeholder.com/350" alt="" />
                 <div className="collab-content-image-txt-lecchain">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
               </div>
               <div className="collab-content-image-lecchain">
-                <img src="https://via.placeholder.com/250" alt="" />
+                <img src="https://via.placeholder.com/350" alt="" />
                 <div className="collab-content-image-txt-lecchain">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
               </div>
               <div className="collab-content-image-lecchain">
-                <img src="https://via.placeholder.com/250" alt="" />
+                <img src="https://via.placeholder.com/350" alt="" />
                 <div className="collab-content-image-txt-lecchain">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
@@ -40,7 +40,10 @@ class Collaborations extends Component {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
               consectetur error cum delectus provident obcaecati. Doloribus
               dolorum voluptatibus dolore non ratione illum maxime assumenda
-              nobis nam eveniet, voluptatem molestias eum.
+              nobis nam eveniet, voluptatem molestias eum. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Est eum beatae tenetur, dolores
+              aliquid, ipsum itaque ullam a illum sunt quos provident, autem
+              debitis optio maiores quidem voluptas consequatur quia.
             </div>
           </div>
         </div>
