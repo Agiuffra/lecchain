@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
 .team-member {
     display: block;
@@ -17,10 +17,12 @@
 
 .team-member h2 {
     font-size: 1.8vw;
+    font-family: Amaranth;
 }
 
 .team-member p {
     font-size: 1.2vw;
+    font-family: "Open Sans";
 }
 
 .team-banner {
@@ -41,6 +43,7 @@
 
 .team-banner .title h1 {
     font-size: 4vw;
+    font-family: Amaranth;
 }
 
 .team-banner .content {

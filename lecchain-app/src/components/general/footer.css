@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
 .footer-lecchain {
-  padding: 15px 0px;
-  font-family: Audiowide;
+  padding: 15px 15px;
+  font-family: "Open Sans";
   color: white;
   font-weight: bold;
   background-color: black;
@@ -20,6 +20,10 @@
   padding: 0px 75px;
   justify-content: space-around;
   align-items: center;
+}
+
+.right-footer-lecchain img {
+  border-radius: 10px;
 }
 
 .link-footer-lecchain {
