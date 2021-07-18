@@ -18,8 +18,8 @@ class App extends Component {
           <Route exact path="/project" component={Project} />
           <Route exact path="/team" component={Teams} />
           <Route exact path="/collaborations" component={Collabs} />
-          <Route exact path="/404" component={NotFoundPage} />
-          <Redirect to="/404" />
+          {/* <Route exact path="/404" component={NotFoundPage} />
+          <Redirect to="/404" /> */}
         </Switch>
       </Router>
     );
