@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import sponsorData from "../data/sponsors";
+import sponsorData from "../../data/sponsors";
 import _ from "lodash";
 import "./sponsors.css";
 
