@@ -14,12 +14,12 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/project" component={Project} />
-          <Route exact path="/team" component={Teams} />
-          <Route exact path="/collaborations" component={Collabs} />
-          <Route exact path="/404" component={NotFoundPage} />
-          <Redirect to="/404" />
+          <Route exact path="/lecchain/" component={Home} />
+          <Route exact path="/lecchain/project" component={Project} />
+          <Route exact path="/lecchain/team" component={Teams} />
+          <Route exact path="/lecchain/collaborations" component={Collabs} />
+          <Route exact path="/lecchain/404" component={NotFoundPage} />
+          <Redirect to="/lecchain/404" />
         </Switch>
       </Router>
     );
