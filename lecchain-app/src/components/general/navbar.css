@@ -38,7 +38,7 @@
   width: 75px;
 }
 
-.navbar-nor-back-lecchain:hover~.navbar-lecchain {
+.navbar-nor-back-lecchain:hover ~ .navbar-lecchain {
   background-color: black;
 }
 
