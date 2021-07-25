@@ -1,42 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
-.text-image {
+.item {
+    display: flex;
+    padding: 1.5% 0%;
+}
+
+.item p {
+    text-align: justify;
+}
+
+.item img {
+    width: 5%;
+    height: 5%;
+    padding: 1%;
+}
+
+.text-list {
     display: flex;
     position: relative;
     overflow: hidden;
     min-height: 50vh;
     font-family: "Open Sans";
     text-align: center;
-    padding: 5% 3% 5% 3%;
 }
 
-.text-image .block-a {
-    width: 50%;
+.text-list .block-a {
+    width: 100%;
     height: 100%;
     padding: 5% 3% 5% 3%;
 }
 
-.text-image .block-a h1 {
+.text-list .block-a h1 {
     font-family: Amaranth;
     padding-bottom: 2%;
     color: rgb(0, 191, 255);
     font-weight: bold;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
-.text-image .block-a p {
+.text-list .block-a div  {
+    color:white;
+}
+
+.text-list .block-a p {
     font-size: 1.25vw;
     margin-bottom: 0;
 }
 
 
-.text-image .block-b {
+.text-list .block-b {
     width: 50%;
-    padding: 0% 3% 0% 3%;
 }
 
-.text-image .block-b img {
+.text-list .block-b img {
     width: 100%;
-    height: 100%;
-    border-radius: 1%;
+    height: 50%;
+    border-radius: 5%;
+    padding: 3%;
 }

@@ -7,7 +7,7 @@ class Collabs extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
+        <Navbar idx="2" />
         <Collaborations />
         <Footer />
       </React.Fragment>

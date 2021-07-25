@@ -8,7 +8,7 @@ class Teams extends Component {
     return (
       <React.Fragment>
         <Navbar />
-        <Team />
+        <Team idx="1" />
         <Footer />
       </React.Fragment>
     );
