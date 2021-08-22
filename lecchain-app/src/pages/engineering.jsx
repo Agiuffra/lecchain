@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import Navbar from "../components/general/navbar";
-import Collaborations from "../components/collaborations/collaborations";
+import Engineeringpage from "../components/engineering/engineering";
 import Footer from "../components/general/footer";
 
-class Collabs extends Component {
+class Engineering extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar idx="2" />
-        <Collaborations />
+        <Navbar idx="5" />
+        <Engineeringpage />
         <Footer />
       </React.Fragment>
     );
   }
 }
 
-export default Collabs;
+export default Engineering;

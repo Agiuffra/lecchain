@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+.engineering {
+  padding: 15px;
+  font-family: "Open Sans";
+}
+
+.eng-title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: aquamarine;
+  text-align: center;
+}
+
+.eng-sum {
+  width: 70vw;
+  margin: auto;
+  margin-bottom: 35px;
+  text-align: justify;
+}
+
+.eng-table-div {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0px;
+}
+
+.eng-table,
+th,
+td {
+  border: 1px solid black;
+  width: 80vw;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.eng-content {
+  width: 80vw;
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: justify;
+}

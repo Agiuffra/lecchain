@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import Navbar from "../components/general/navbar";
-import Collaborations from "../components/collaborations/collaborations";
+import Laboratorypage from "../components/laboratory/laboratory";
 import Footer from "../components/general/footer";
 
-class Collabs extends Component {
+class Laboratory extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar idx="2" />
-        <Collaborations />
+        <Navbar idx="4" />
+        <Laboratorypage />
         <Footer />
       </React.Fragment>
     );
   }
 }
 
-export default Collabs;
+export default Laboratory;

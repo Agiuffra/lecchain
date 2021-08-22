@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import Navbar from "./general/navbar";
-import Team from "./team/team";
-import Footer from "./general/footer";
+import Navbar from "./../components/general/navbar";
+import Team from "./../components/team/team";
+import Footer from "./../components/general/footer";
 
 class Teams extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
-        <Team idx="1" />
+        <Navbar idx="1" />
+        <Team />
         <Footer />
       </React.Fragment>
     );
