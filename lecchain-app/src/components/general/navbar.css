@@ -3,13 +3,18 @@
 .navbar-lecchain {
   font-family: "Open Sans";
   font-weight: bold;
-  background-color: black;
-  /*background-color: white;
+  margin-top: 2%;
+  /*background-color: black;
+  background-color: white;
   background-color: white;*/
 }
 
 .navbar-link-lecchain {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .navbar-link-lecchain:hover {

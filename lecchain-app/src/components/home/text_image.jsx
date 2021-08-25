@@ -7,6 +7,9 @@ class TextImage extends Component {
   }
 
   render() {
+    /*
+    <img src={this.props.img}></img>
+    */
     return (
       <div className="text-image">
           <div className="block-a" style={{order:this.props.first==='text'?'1':'2'}}>
@@ -16,7 +19,7 @@ class TextImage extends Component {
                 </p>
           </div>
           <div className="block-b" style={{order:this.props.first==='text'?'2':'1'}}>
-                <img src={this.props.img}></img>
+                
           </div>
       </div>
     );

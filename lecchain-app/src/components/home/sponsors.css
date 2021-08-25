@@ -4,15 +4,20 @@
     display: block;
     position: relative;
     overflow: hidden;
-    min-height: 50vh;
+    min-height: 60vh;
     font-family: Amaranth;
-    padding: 5% 3% 3% 3%;
+    margin-top: -5%;
+    padding: 0% 3% 3% 3%;
 }
 
 .sponsors .title {
     color: rgb(0, 191, 255);
     text-align: center;
     font-weight: bold;
+}
+
+.sponsors .title h1{
+    font-size: 2.5vw;
 }
 
 .sponsors .content {
@@ -27,6 +32,6 @@
 }
 
 .sponsors .line_content img {
-    width: 20vw;
+    width: 18vw;
     padding: 2% 20% 2% 20%;
 }

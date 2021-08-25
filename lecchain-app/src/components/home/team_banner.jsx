@@ -44,10 +44,10 @@ class TeamBanner extends Component {
     return (
       <div className="team-banner">
           <div className="title">
-            <h1>Team</h1>
+            <h1>Miembros</h1>
           </div>
           <Carousel showArrows={true} showThumbs={false} showStatus={false} autoPlay={true}
-            infiniteLoop={true}>
+            infiniteLoop={true} showIndicators={false} autoFocus={false}>
                 {renderMembers}
           </Carousel>
       </div>
