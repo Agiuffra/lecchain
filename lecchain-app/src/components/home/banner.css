@@ -3,12 +3,12 @@
 
 .home-banner {
   /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://os.alipayobjects.com/rmsportal/IhCNTqPpLeTNnwr.jpg");*/
+    url("https://os.alipayobjects.com/rmsportal/IhCNTqPpLeTNnwr.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 
-  min-height: 105vh;
+  min-height: 60vw;
   position: relative;
   overflow: hidden;
   display: block;

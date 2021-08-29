@@ -4,9 +4,6 @@
   font-family: "Open Sans";
   font-weight: bold;
   margin-top: 2%;
-  /*background-color: black;
-  background-color: white;
-  background-color: white;*/
 }
 
 .navbar-link-lecchain {
@@ -22,25 +19,20 @@
   text-decoration: none;
 }
 
-.navbar-margin-lecchain {
-  margin: 6px 0px 6px 0px;
-}
-
 .navbar-nor-back-lecchain {
   text-align: center;
   display: flex;
   justify-content: center;
-  padding: 2.3% 0% 0% 0%;
-  height: 70px;
-  width: 70px;
+  padding: 0% 0% 0% 0%;
+  width: 6vw;
+  height: 6vw;
+  font-size: 1.2vw;
   border-radius: 50%;
   background-color: rgba(143, 144, 146, 0.28);
 }
 
 .navbar-nor-back-lecchain:hover {
   background-color: rgba(86, 221, 252, 0.58);
-  height: 75px;
-  width: 75px;
 }
 
 .navbar-nor-back-lecchain:hover ~ .navbar-lecchain {
@@ -51,9 +43,10 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  padding: 2.3% 0% 0% 0%;
-  height: 70px;
-  width: 70px;
+  padding: 0% 0% 0% 0%;
+  width: 6vw;
+  height: 6vw;
+  font-size: 1.2vw;
   border-radius: 50%;
   background-color: rgba(55, 195, 228, 0.38);
 }

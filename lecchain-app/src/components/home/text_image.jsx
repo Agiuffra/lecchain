@@ -7,9 +7,6 @@ class TextImage extends Component {
   }
 
   render() {
-    /*
-    <img src={this.props.img}></img>
-    */
     return (
       <div className="text-image">
           <div className="block-a" style={{order:this.props.first==='text'?'1':'2'}}>

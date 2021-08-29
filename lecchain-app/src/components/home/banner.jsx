@@ -7,9 +7,6 @@ const { Element } = BannerAnim;
 const BgElement = Element.BgElement;
 
 class HomeBanner extends Component{
-    /*
-    <h1>Lecchain</h1>
-    */
     render(){
         return (
             <div class="home-banner">

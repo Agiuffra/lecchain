@@ -37,12 +37,17 @@ class Navbar extends Component {
               HOME <span className="sr-only">(current)</span>
             </a>
           </div>
+          <div className={this.props.idx==="2"?"mr-5 ml-5 navbar-sel-back-lecchain":"mr-5 ml-5 navbar-nor-back-lecchain"}>
+            <a className="navbar-link-lecchain" href="#">
+              ABOUT
+            </a>
+          </div>
           <div className={this.props.idx==="3"?"mr-5 ml-5 navbar-sel-back-lecchain":"mr-5 ml-5 navbar-nor-back-lecchain"}>
             <a className="navbar-link-lecchain" href="/project">
               PROJECT
             </a>
           </div>
-          <div className={this.props.idx==="5"?"mr-5 ml-5 navbar-sel-back-lecchain":"mr-5 ml-5 navbar-nor-back-lecchain"}>
+          <div className={this.props.idx==="4"?"mr-5 ml-5 navbar-sel-back-lecchain":"mr-5 ml-5 navbar-nor-back-lecchain"}>
             <a className="navbar-link-lecchain" href="/engineering">
               ENGINEERING
             </a>
