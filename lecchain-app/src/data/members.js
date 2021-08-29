@@ -132,7 +132,7 @@ const members = [
         work: "a",
         interests: "a",
         description: "a",
-        image: "/team/Marcelo.jpeg"
+        image: "/team/Nathaly.jpeg"
     }
 ];
 
