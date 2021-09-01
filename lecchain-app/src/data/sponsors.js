@@ -1,20 +1,22 @@
 const sponsorData = [
-    {
-      name: "Name",
-      img: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png"
-    },
-    {
-      name: "Name",
-      img: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png"
-    },
-    {
-      name: "Name",
-      img: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png"
-    },
-    {
-      name: "Name",
-      img: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png"
-    }
+  {
+    id: 0,
+    name: "Name",
+    image: "/team/Marcelo.jpeg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas efficitur tincidunt interdum. Aliquam erat volutpat. Sed ac nunc congue, placerat nisl non, malesuada turpis. Praesent convallis mi ipsum, ultrices dignissim enim molestie vel. Phasellus tincidunt sed odio vitae egestas. Fusce eros turpis, malesuada vitae arcu vel, consectetur ornare dolor. Nam tempus elementum magna ut cursus."
+  },
+  {
+    id: 1,
+    name: "Name",
+    image: "/team/Marcelo.jpeg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas efficitur tincidunt interdum. Aliquam erat volutpat. Sed ac nunc congue, placerat nisl non, malesuada turpis. Praesent convallis mi ipsum, ultrices dignissim enim molestie vel. Phasellus tincidunt sed odio vitae egestas. Fusce eros turpis, malesuada vitae arcu vel, consectetur ornare dolor. Nam tempus elementum magna ut cursus."
+  },
+  {
+    id: 2,
+    name: "Name",
+    image: "/team/Marcelo.jpeg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas efficitur tincidunt interdum. Aliquam erat volutpat. Sed ac nunc congue, placerat nisl non, malesuada turpis. Praesent convallis mi ipsum, ultrices dignissim enim molestie vel. Phasellus tincidunt sed odio vitae egestas. Fusce eros turpis, malesuada vitae arcu vel, consectetur ornare dolor. Nam tempus elementum magna ut cursus."
+  }
 ]
 
 export default sponsorData;

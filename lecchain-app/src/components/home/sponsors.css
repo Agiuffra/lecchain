@@ -4,9 +4,8 @@
     display: block;
     position: relative;
     overflow: hidden;
-    min-height: 34vw;
+    min-height: 30vw;
     font-family: Amaranth;
-    margin-top: -5%;
     padding: 0% 3% 0% 3%;
 }
 
