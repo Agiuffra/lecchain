@@ -8,27 +8,6 @@ class Navbar extends Component {
   }
 
   render() {
-    /*<a className="navbar-brand" href="/">
-      <img width="100px" src={logo} alt="" />
-    </a>
-    
-
-          <div className={this.props.idx==="1"?"mr-5 ml-5 navbar-sel-back-lecchain":"mr-5 ml-5 navbar-nor-back-lecchain"}>
-            <a className="navbar-link-lecchain" href="/team">
-              TEAM
-            </a>
-          </div>
-          <div className={this.props.idx==="2"?"mr-5 ml-5 navbar-sel-back-lecchain":"mr-5 ml-5 navbar-nor-back-lecchain"}>
-            <a className="navbar-link-lecchain" href="/collaborations">
-              COLLABORATIONS
-            </a>
-          </div>
-          <div className={this.props.idx==="4"?"mr-5 ml-5 navbar-sel-back-lecchain":"mr-5 ml-5 navbar-nor-back-lecchain"}>
-            <a className="navbar-link-lecchain" href="/laboratory">
-              LABORATORY
-            </a>
-          </div>
-    */
     return (
       <nav className="navbar navbar-expand-lg navbar-lecchain d-flex justify-content-end">
         <div className="d-flex justify-content-between navbar-buttons-lecchain">
