@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.navbar-lecchain {
+  font-family: "Inter";
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link-lecchain {
+  color: white;
+  margin: 0px 50px;
+}
+
+.navbar-link-lecchain:hover {
+  color: #2ec5ce;
+  text-decoration: none;
+}
+
+.navbar-nor-back-lecchain {
+  color: white;
+}
+
+.navbar-sel-back-lecchain {
+  color: #2ec5ce;
+}
+
+/* .navbar-margin-lecchain {
+   margin: 6px 0px 6px 0px;
+} */
+
+/* .navbar-nor-back-lecchain {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 2.3% 0% 0% 0%;
+  height: 70px;
+  width: 70px;
+  background-color: rgba(143, 144, 146, 0.28);
+} */
+
+/* .navbar-nor-back-lecchain:hover {
+  background-color: rgba(86, 221, 252, 0.58);
+  height: 75px;
+  width: 75px;
+} */
+
+/* .navbar-nor-back-lecchain:hover ~ .navbar-lecchain {
+  background-color: black;
+} */
+
+/* .navbar-sel-back-lecchain {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 2.3% 0% 0% 0%;
+  height: 70px;
+  width: 70px;
+  background-color: rgba(55, 195, 228, 0.38);
+} */
+
+/* .navbar-sel-back-lecchain:hover {
+  background-color: rgba(86, 221, 252, 0.58);
+} */

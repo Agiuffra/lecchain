@@ -13,10 +13,8 @@ class Sponsor extends Component {
         <img
           src={process.env.PUBLIC_URL + this.props.image}
           alt={this.props.name}
-          width="100px"
           className="sponsor-img"
-        ></img>
-        <p className="sponsor-txt">{this.props.text}</p>
+        />
       </div>
     );
   }
@@ -25,19 +23,12 @@ class Sponsor extends Component {
 class SponsorsCard extends Component {
   render() {
     const sponsors = sponsorData.map((data) => {
-      return (
-        <Sponsor
-          id={data.id}
-          image={data.image}
-          name={data.name}
-          text={data.description}
-        />
-      );
+      return <Sponsor id={data.id} image={data.image} name={data.name} />;
     });
     return (
       <div className="sponsors-card">
-        <h2 className="sponsors-title">SPONSORS</h2>
-        <div className="sponsors-images">{sponsors}</div>
+        <h2 className="sponsors-title">Our Sponsors</h2>
+        <div className="sponsores">{sponsors}</div>
       </div>
     );
   }
