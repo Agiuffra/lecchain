@@ -1,9 +1,30 @@
-import React, { Component } from "react";
+import React, { Component, createRef } from "react";
+
+import * as Scroll from "react-scroll";
+
 import "./navbar_v2.css";
+
+var scrolling = Scroll.animateScroll;
 
 class Navbar extends Component {
   constructor(props) {
     super(props);
+  }
+
+  scrollCrew() {
+    Scroll.animateScroll.scrollTo(850);
+  }
+
+  scrollInstructors() {
+    Scroll.animateScroll.scrollTo(2950);
+  }
+
+  scrollCollaborators() {
+    Scroll.animateScroll.scrollTo(3600);
+  }
+
+  scrollSponsors() {
+    Scroll.animateScroll.scrollToBottom();
   }
 
   render() {
@@ -13,13 +34,19 @@ class Navbar extends Component {
           <div
             className={
               this.props.idx === "0"
-                ? "navbar-sel-back-lecchain"
-                : "navbar-nor-back-lecchain"
+                ? "navbar-sel-back-lecchain about-lecchain-button"
+                : "navbar-nor-back-lecchain about-lecchain-button"
             }
           >
             <a className="navbar-link-lecchain" href="/about">
               About
             </a>
+            <ul className="dropdown-lecchain">
+              <li onClick={this.scrollCrew}>Crew</li>
+              <li onClick={this.scrollInstructors}>Instructors</li>
+              <li onClick={this.scrollCollaborators}>Collaborators</li>
+              <li onClick={this.scrollSponsors}>Sponsors</li>
+            </ul>
           </div>
           <div
             className={

@@ -66,7 +66,9 @@ class TeamCard extends Component {
     });
     return (
       <div className="team-card">
-        <h2 className="team-title">LECCHAIN crew</h2>
+        <h2 className="team-title" ref={this.scrollDiv}>
+          LECCHAIN crew
+        </h2>
         <div className="team-students">{students}</div>
       </div>
     );

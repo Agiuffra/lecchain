@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+li {
+  list-style: none;
+}
+
 .navbar-lecchain {
   font-family: "Inter";
   font-weight: 500;
@@ -12,53 +16,45 @@
   margin: 0px 50px;
 }
 
-.navbar-link-lecchain:hover {
-  color: #2ec5ce;
-  text-decoration: none;
-}
-
-.navbar-nor-back-lecchain {
+.navbar-nor-back-lecchain .navbar-link-lecchain {
   color: white;
 }
 
-.navbar-sel-back-lecchain {
+.navbar-sel-back-lecchain .navbar-link-lecchain {
   color: #2ec5ce;
 }
 
-/* .navbar-margin-lecchain {
-   margin: 6px 0px 6px 0px;
-} */
+.navbar-link-lecchain:hover {
+  color: red;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
 
-/* .navbar-nor-back-lecchain {
+.dropdown-lecchain {
+  padding: 1em 0;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 55px;
+}
+
+.dropdown-lecchain li + li {
+  margin-top: 10px;
+}
+
+.dropdown-lecchain li {
+  padding: 0.5em 1em;
+  width: 9em;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  padding: 2.3% 0% 0% 0%;
-  height: 70px;
-  width: 70px;
-  background-color: rgba(143, 144, 146, 0.28);
-} */
+  color: white;
+}
 
-/* .navbar-nor-back-lecchain:hover {
-  background-color: rgba(86, 221, 252, 0.58);
-  height: 75px;
-  width: 75px;
-} */
+.dropdown-lecchain li:hover {
+  background-color: #4c9e9e;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
 
-/* .navbar-nor-back-lecchain:hover ~ .navbar-lecchain {
-  background-color: black;
-} */
-
-/* .navbar-sel-back-lecchain {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  padding: 2.3% 0% 0% 0%;
-  height: 70px;
-  width: 70px;
-  background-color: rgba(55, 195, 228, 0.38);
-} */
-
-/* .navbar-sel-back-lecchain:hover {
-  background-color: rgba(86, 221, 252, 0.58);
-} */
+.about-lecchain-button:hover .dropdown-lecchain {
+  display: block;
+}
