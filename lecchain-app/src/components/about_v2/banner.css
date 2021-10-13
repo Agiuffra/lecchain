@@ -1,9 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 @import "./../general/navbar_v2.css";
 
+.about-banner {
+  background-color: #18191f;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 25px;
+}
+/* 
 .home-banner {
-  /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://os.alipayobjects.com/rmsportal/IhCNTqPpLeTNnwr.jpg");*/
+  //background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://os.alipayobjects.com/rmsportal/IhCNTqPpLeTNnwr.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +20,7 @@
   display: block;
 }
 
-/* Place text in the middle of the image */
+// Place text in the middle of the image 
 .home-banner-text {
   font-family: Amaranth;
   text-align: center;
@@ -24,3 +30,4 @@
   transform: translate(-50%, -50%);
   color: white;
 }
+ */

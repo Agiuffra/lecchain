@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.team-card {
+  background-color: #d5fafc;
+  padding: 75px 75px;
+}
+
+.team-title {
+  font-family: "Inter";
+  text-align: center;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+.team-students {
+  margin: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 75px 150px;
+}
+
+.team-student {
+  text-align: center;
+}
+
+.student-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.student-career {
+  font-size: 16px;
+}
+
+.student-email a {
+  font-size: 14px;
+  color: #2ec5ce;
+  text-decoration: none;
+}
+
+.student-email a:hover {
+  color: #2ec5ce;
+  text-decoration: none;
+}
+
+.student-img {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  margin: 10px 0px;
+}
