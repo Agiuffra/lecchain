@@ -29,7 +29,13 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar-lecchain">
+      <nav
+        className={
+          this.props.dark === "1"
+            ? "navbar-lecchain darkmode-txt"
+            : "navbar-lecchain clearmode-txt"
+        }
+      >
         <div className="d-flex justify-content-between navbar-buttons-lecchain">
           <div
             className={
@@ -41,7 +47,11 @@ class Navbar extends Component {
             <a className="navbar-link-lecchain" href="/about">
               About
             </a>
-            <ul className="dropdown-lecchain">
+            <ul
+              className={
+                this.props.about === "1" ? "dropdown-lecchain" : "nodisp"
+              }
+            >
               <li onClick={this.scrollCrew}>Crew</li>
               <li onClick={this.scrollInstructors}>Instructors</li>
               <li onClick={this.scrollCollaborators}>Collaborators</li>

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.proj-prmvd {
+  font-family: "Inter";
+  background-color: #18191f;
+  color: white;
+  padding: 70px 80px 70px 80px;
+}
+
+.prmvd-title {
+  color: #2ec5ce;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.prmvd-subt {
+  font-weight: bolder;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.prmvd-ttl {
+  margin-bottom: 10px;
+}
+
+.prmvd-desc {
+  margin-bottom: 25px;
+}
+
+.prmvd-video {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.prmvd-video video {
+  width: 85vw;
+}
