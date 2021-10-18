@@ -1,0 +1,30 @@
+.sponsors-card {
+  background-color: #f4f5f7;
+  padding: 75px 150px;
+  font-family: "Inter";
+}
+
+.sponsors-title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+.sponsores {
+  margin: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  justify-content: center;
+  gap: 75px 75px;
+}
+
+.sponsor {
+  background-color: white;
+  border-radius: 25px;
+  padding: 15px 75px;
+}
+
+.sponsor-img {
+  width: 130px;
+}

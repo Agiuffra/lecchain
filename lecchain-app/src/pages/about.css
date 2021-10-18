@@ -1,11 +1,6 @@
 .about-lecchain {
-  background-image: url("../data/img/about/about-LAPTOP.png");
+  /*   background-image: url("../data/img/about/about-LAPTOP.png"); */
   background-repeat: no-repeat;
   background-size: contain;
   height: 2700px;
-}
-
-.about-title {
-  margin-top: 150px;
-  text-align: center;
 }

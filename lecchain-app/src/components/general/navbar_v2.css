@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+li {
+  list-style: none;
+}
+
+.navbar-lecchain {
+  font-family: "Inter";
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link-lecchain {
+  /*color: white;*/
+  margin: 0px 50px;
+}
+
+.navbar-link-lecchain-white {
+  color: white;
+}
+
+.navbar-link-lecchain-black {
+  color: #18191F;
+}
+
+/*.navbar-nor-back-lecchain .navbar-link-lecchain {
+  color: white;
+}*/
+
+.navbar-sel-back-lecchain .navbar-link-lecchain {
+  color: #2ec5ce;
+}
+
+.navbar-link-lecchain:hover {
+  color: red;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.dropdown-lecchain {
+  padding: 1em 0;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 55px;
+}
+
+.dropdown-lecchain li + li {
+  margin-top: 10px;
+}
+
+.dropdown-lecchain li {
+  padding: 0.5em 1em;
+  width: 9em;
+  text-align: center;
+  color: white;
+}
+
+.dropdown-lecchain li:hover {
+  background-color: #4c9e9e;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.about-lecchain-button:hover .dropdown-lecchain {
+  display: block;
+}

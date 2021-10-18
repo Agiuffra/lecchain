@@ -1,14 +1,10 @@
-.Home {
-  text-align: center;
-}
-
 .home-lecchain {
-  background-image: url("../data/img/main-PC-final.png");
   background-repeat: no-repeat;
   background-size: contain;
+  height: 2700px;
 }
 
-.Home-logo {
+/*.Home-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -45,4 +41,4 @@
 
 .spacer {
   height: 5vw;
-}
+}*/
