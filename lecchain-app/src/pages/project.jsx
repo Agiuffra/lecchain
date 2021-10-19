@@ -23,7 +23,7 @@ class Project extends Component {
         <Infographic />
         <PromotionalVideo />
         <ProjectVideo />
-        <Biosafety />
+        {/* <Biosafety /> */}
         <Experiments />
         <Footer />
       </main>

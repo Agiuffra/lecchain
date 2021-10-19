@@ -15,10 +15,10 @@ class ProjectBanner extends Component {
       <div className="project-banner">
         <div className="Logo">
           <a href="./">
-            <img src={logo} alt="logo_lecchain" width="140px" />
+            <img src={logo} alt="logo_lecchain" width="150px" />
           </a>
         </div>
-        <Navbar idx="1" />
+        <Navbar idx="1" project="1" />
       </div>
     );
   }

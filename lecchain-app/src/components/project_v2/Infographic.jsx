@@ -11,13 +11,9 @@ class Infographic extends Component {
           Lecchain, a vaccine candidate that does not require refigeration.
         </div>
         <div className="info-auth">
-          <b>Authors: </b>Aldoradin, Allison - Cavero, Gladys - Cisneros, Jose -
-          Copara, Massiel - Dongo, Nathaly - Ferreyra, Yomali Fernandez, Ximena
-          - Giuffra, Alessandro - Hurtado, Marcelo - Márquez, Valeria - Salazar,
-          Maria - Peña, Diana -Quesada, Luis - Villegas. Ariana - Villena,
-          Amalia
+          <b>Authors: </b>Aldoradin, Allison - Salazar, Maria - Peña, Diana
         </div>
-        <div className="info-attr">
+        {/* <div className="info-attr">
           <div className="attr-title">Attributions</div>
           <div className="atrr-brnstr">
             <b>Brainstorms: </b>all team members.
@@ -25,7 +21,7 @@ class Infographic extends Component {
           <div className="atrr-infdsgn">
             <b>Infographic Design: </b>asdasdasdasdasd and asdasdasdasd.
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

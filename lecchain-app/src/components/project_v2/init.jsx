@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import icon from "./../../project-icon.png";
 import learnmore from "./../../learnmore.png";
+import * as Scroll from "react-scroll";
 
 import "./init.css";
 
 class Initial extends Component {
+  scrollProjPres() {
+    Scroll.animateScroll.scrollTo(4450);
+  }
+
   render() {
     return (
       <div className="project-init">
@@ -14,7 +19,7 @@ class Initial extends Component {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ex
             laboriosam reiciendis ut est tempora?
           </div>
-          <div className="txt-button">
+          <div className="txt-button" onClick={this.scrollProjPres}>
             <img src={learnmore} alt="learn-more" />
           </div>
         </div>

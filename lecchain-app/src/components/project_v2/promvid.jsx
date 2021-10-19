@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Vid from "./../../video-prom.mp4";
+//import Vid from "./../../video-prom.mp4";
 
 import "./promvid.css";
 
@@ -27,10 +27,19 @@ class PromotionalVideo extends Component {
           engineering.
         </div>
         <div className="prmvd-video">
-          <video controls>
-            <source src={Vid} type="video/mp4" />
+          <iframe
+            width="1160"
+            height="580"
+            src="https://www.youtube.com/embed/bb1_7nj03oA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          {/* <video controls>
+            <source src="" type="video/mp4" />
             video not supported.
-          </video>
+          </video> */}
         </div>
         <div className="prmvd-crdts">
           <b>Credits:</b>

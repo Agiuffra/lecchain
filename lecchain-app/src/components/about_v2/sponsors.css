@@ -22,9 +22,12 @@
 .sponsor {
   background-color: white;
   border-radius: 25px;
-  padding: 15px 75px;
+  width: 290px;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .sponsor-img {
-  width: 130px;
+  height: 67px;
 }

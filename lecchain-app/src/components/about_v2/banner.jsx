@@ -15,7 +15,7 @@ class AboutBanner extends Component {
       <div className="about-banner">
         <div className="Logo">
           <a href="./">
-            <img src={logo} alt="logo_lecchain" width="140px" />
+            <img src={logo} alt="logo_lecchain" width="150px" />
           </a>
         </div>
         <Navbar idx="0" about="1" dark="1" />
