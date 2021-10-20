@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.eng-bioparts {
+  font-family: "Inter";
+  background-color: #18191f;
+  color: white;
+  padding: 70px 80px 70px 80px;
+}
+
+.bioparts-title {
+  color: #2ec5ce;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.bioparts-sect {
+  margin-bottom: 25px;
+}
+
+.sect-title {
+  font-size: 23px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.table-lecchain {
+  width: 100%;
+}
+
+.table-header {
+  background-color: #b5d9db;
+  color: #18191f;
+  font-size: 16px;
+}
+
+.table-header th {
+  padding: 10px 20px;
+}
+
+.header-1 {
+  width: 10%;
+}
+
+.header-2 {
+  width: 10%;
+}
+
+.header-4 {
+  width: 10%;
+}
+
+.header-5 {
+  width: 10%;
+}
+
+.table-sect {
+  border-bottom: 1px solid #2ec5ce;
+  font-size: 14px;
+}
+
+.sect-1 {
+  color: #2ec5ce;
+}
+
+.table-sect td {
+  padding: 10px 20px;
+}
