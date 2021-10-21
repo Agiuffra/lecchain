@@ -8,61 +8,54 @@ class PromotionalVideo extends Component {
     return (
       <div className="proj-prmvd">
         <div className="prmvd-title">Promotional video</div>
-        <div className="prmvd-subt">
-          UTEC-Perú: Lecchain (2021) - Project Promotion Video [Spanish]
-        </div>
+        {/* <div className="prmvd-subt">
+          Lecchain - A novel subunit, oral and thermostable vaccine for
+          COVID-19.
+        </div> */}
         <div className="prmvd-ttl">
-          <b>Title: </b> FlavoFlow - a comprehensive exogenous fish infections
-          detection, treatment and prevention strategy.
+          <b>Title: </b> Lecchain - A novel subunit, oral and thermostable
+          vaccine for COVID-19.
         </div>
         <div className="prmvd-desc">
-          <b>Abstract: </b>Throughout the United States, 23.1 million people
-          lack access to fresh and affordable produce. Lambert iGEM presents
-          Agrosense, a community-based aquaponics system that integrates
-          synthetic biology. By engineering nutrient biosensors, we aim to
-          reduce maintenance costs for aquaponics systems. With a focus on
-          empowering communities, we plan to partner with schools and
-          organizations to educate next-generation agriculture technology
-          leaders on the intersection of aquaponics, synthetic biology, and
-          engineering.
+          <b>Abstract: </b>The Coronavirus that is currently raging through the
+          world will definitely not be the last virus that has the potential of
+          becoming a pandemic. Vaccines will continue being developed and
+          complex distribution for hard-to-reach regions will continue being a
+          problem. As a way to face and be prepared for future pandemics iGEM
+          DesignLeague team UTEC-Peru proposed{" "}
+          <b>
+            Lecchain: A novel subunit, oral and thermostable vaccine for
+            COVID-19 that does not require cold chains
+          </b>
+          .
         </div>
         <div className="prmvd-video">
           <iframe
             width="1160"
             height="580"
-            src="https://www.youtube.com/embed/bb1_7nj03oA"
+            src="https://www.youtube.com/embed/esPDxMxKNpw"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          {/* <video controls>
-            <source src="" type="video/mp4" />
-            video not supported.
-          </video> */}
         </div>
         <div className="prmvd-crdts">
-          <b>Credits:</b>
+          <b>Credits</b>
           <div className="crdts-dir">
-            <b>Director/Producer: </b>Kathy Ye
+            <b>Film maker: </b>Massiel Copara & Nathaly Dongo
           </div>
           <div className="crdts-edit">
-            <b>Editor: </b>Payton Gray, Kathy Ye
+            <b>Quechua Translation: </b>Jose Antonio Mendoza Valencia
           </div>
           <div className="crdts-nar">
-            <b>Narrator: </b>Sri Pinnamaredy
+            <b>Muisc Credits: </b>Antonio Vivaldi: Le quattro stagioni
           </div>
           <div className="crdts-cam">
-            <b>Camera Operators: </b>Kathy Ye, Janet Standeven, Saif Khan, Zoya
-            Mir
+            <b>Sound Editor: </b>Nathaly Dongo & Massiel Copara
           </div>
           <div className="crdts-brns">
-            <b>Brainstorming Committee: </b>Kathy Ye, Zoya Mir, Nega Lingam, Sri
-            Pinnamaredy
-          </div>
-          <div className="crdts-gen">
-            <b>General Video Committee: </b>Aditya Prabhaker, Faith Johnson,
-            Melanie Kim, Neha Lingam
+            <b>Clips Credits: </b>Videvo
           </div>
         </div>
       </div>

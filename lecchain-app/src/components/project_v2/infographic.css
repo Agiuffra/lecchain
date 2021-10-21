@@ -19,6 +19,10 @@
   margin-bottom: 10px;
 }
 
+.info-slogn b {
+  color: #2ec5ce;
+}
+
 .info-attr {
   margin-top: 500px;
 }
@@ -26,4 +30,8 @@
 .attr-title {
   margin-bottom: 15px;
   font-weight: bold;
+}
+
+.cred-auths {
+  margin-top: 10px;
 }

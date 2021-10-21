@@ -6,7 +6,7 @@ class Molecular extends Component {
   render() {
     return (
       <div className="eng-mole">
-        <div className="mole-title">Molecular cloning in Benchling</div>
+        <div className="mole-title">Software</div>
         <div className="mole-intro">
           Welcome to the poster of iGEM Leiden 2020! Click on the different
           sections to read more about it.

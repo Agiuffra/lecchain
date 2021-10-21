@@ -18,10 +18,22 @@
   margin-bottom: 15px;
 }
 
+.desc-txt b {
+  color: #2ec5ce;
+}
+
 .desc-ref {
   margin-top: 150px;
 }
 
 .ref-title {
   margin-bottom: 15px;
+}
+
+.ref-ref {
+  margin-bottom: 5px;
+}
+
+.ref-ref a {
+  color: #2ec5ce;
 }

@@ -14,7 +14,7 @@ class EntrepBanner extends Component {
             <img src={logo} alt="logo_lecchain" width="150px" />
           </a>
         </div>
-        <Navbar idx="4" project="1" />
+        <Navbar idx="4" entrepreneurship="1" />
       </div>
     );
   }
