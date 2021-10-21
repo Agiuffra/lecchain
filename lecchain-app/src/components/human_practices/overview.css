@@ -21,3 +21,15 @@
   text-align: justify;
   margin-bottom: 15px;
 }
+
+.ovrvw-source {
+  color: #18191f;
+  font-size: 20px;
+  font-weight: regular;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.source-title {
+  font-weight: bold;
+}
