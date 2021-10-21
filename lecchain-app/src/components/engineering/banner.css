@@ -1,0 +1,8 @@
+@import "./../general/navbar_v2.css";
+
+.engineering-banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 25px;
+  background-color: #d9e8ef;
+}

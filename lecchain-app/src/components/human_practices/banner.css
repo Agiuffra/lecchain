@@ -1,0 +1,8 @@
+@import "./../general/navbar_v2.css";
+
+.humprac-banner {
+  background-color: #18191f;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 25px;
+}

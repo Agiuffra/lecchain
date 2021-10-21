@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.proj-provd {
+  font-family: "Inter";
+  background-color: #d2fafc;
+  padding: 70px 80px 70px 80px;
+}
+
+.provd-title {
+  color: #2ec5ce;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.provd-subt {
+  font-weight: bolder;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.provd-ttl {
+  margin-bottom: 10px;
+}
+
+.provd-desc {
+  margin-bottom: 25px;
+}
+
+.provd-video {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.provd-video video {
+  width: 85vw;
+}

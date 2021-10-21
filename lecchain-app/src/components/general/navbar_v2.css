@@ -38,7 +38,12 @@ li {
   transition: 0.3s ease;
 }
 
+.nodisp {
+  display: none;
+}
+
 .dropdown-lecchain {
+  font-size: 15px;
   padding: 1em 0;
   position: absolute;
   display: none;
@@ -54,6 +59,12 @@ li {
   padding: 0.5em 1em;
   width: 9em;
   text-align: center;
+}
+
+.dropdown-dark-lecchain li {
+  padding: 0.5em 1em;
+  width: 9em;
+  text-align: center;
   color: white;
 }
 
@@ -63,6 +74,18 @@ li {
   transition: 0.3s ease;
 }
 
+.about-lecchain-button {
+  padding: 0px auto;
+}
+
 .about-lecchain-button:hover .dropdown-lecchain {
   display: block;
+}
+
+.darkmode-txt a {
+  color: white;
+}
+
+.clearmode-txt a {
+  color: #18191f;
 }

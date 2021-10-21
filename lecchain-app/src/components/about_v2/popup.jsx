@@ -29,9 +29,13 @@ class Popup extends Component {
                 </div>
               </div>
               <div className="stud-just">
-                <div className="stud-work">Roles: {this.props.work}</div>
+                <div className="stud-work">
+                  <b>Role: </b>
+                  {this.props.work}
+                </div>
                 <div className="stud-interests">
-                  Intereses: {this.props.interests}
+                  <b>Interests: </b>
+                  {this.props.interests}
                 </div>
               </div>
               <div className="stud-desc">{this.props.description}</div>
