@@ -6,8 +6,6 @@ import Roadmap from "../components/project_v2/roadmap";
 import Infographic from "../components/project_v2/Infographic";
 import PromotionalVideo from "../components/project_v2/promvid";
 import ProjectVideo from "../components/project_v2/projvid";
-import Biosafety from "../components/project_v2/biosafety";
-import Experiments from "../components/project_v2/experiments";
 import Footer from "../components/general/footer";
 import "./project.css";
 
@@ -22,8 +20,6 @@ class Project extends Component {
         <Infographic />
         <PromotionalVideo />
         <ProjectVideo />
-        {/* <Biosafety /> */}
-        <Experiments />
         <Footer />
       </main>
     );

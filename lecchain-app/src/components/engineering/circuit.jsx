@@ -6,7 +6,7 @@ class Circuit extends Component {
   render() {
     return (
       <div className="eng-circuit">
-        <div className="circuit-title">Circuit Design</div>
+        <div className="circuit-title">Design</div>
         <div className="circuit-txt">
           Lecchain was born with the aim of being the first step towards the
           production of more accessible vaccines, which allow reaching the most

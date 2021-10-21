@@ -6,22 +6,26 @@ class Infographic extends Component {
   render() {
     return (
       <div className="proj-info">
-        <div className="info-title">Infographic: Lecchain UTEC-Perú</div>
+        <div className="info-title">
+          Education and Communication Infographic
+        </div>
         <div className="info-slogn">
-          Lecchain, a vaccine candidate that does not require refigeration.
+          <b>Lecchain</b> has many advantages that differentiate it from current
+          vaccines. From its thermotolerance to its modular design for producing
+          novel vaccines. This infographic has been made to show a visual
+          representation of what <b>Lecchain</b> is and what makes it special.
         </div>
-        <div className="info-auth">
-          <b>Authors: </b>Aldoradin, Allison - Salazar, Maria - Peña, Diana
+        <div className="info-cred">
+          <b className="cred-title">Credits</b>
+          <div className="cred-auths">
+            <div>
+              <b>Graphic designer: </b> Maria De Fátima Salazar
+            </div>
+            <div>
+              <b>Graphic designer: </b> Allison Aldoradin
+            </div>
+          </div>
         </div>
-        {/* <div className="info-attr">
-          <div className="attr-title">Attributions</div>
-          <div className="atrr-brnstr">
-            <b>Brainstorms: </b>all team members.
-          </div>
-          <div className="atrr-infdsgn">
-            <b>Infographic Design: </b>asdasdasdasdasd and asdasdasdasd.
-          </div>
-        </div> */}
       </div>
     );
   }

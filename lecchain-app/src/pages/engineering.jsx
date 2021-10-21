@@ -5,6 +5,7 @@ import Circuit from "../components/engineering/circuit";
 import Molecular from "../components/engineering/molecular";
 import Computational from "../components/engineering/computational";
 import BioParts from "../components/engineering/parts";
+import Experiments from "../components/engineering/experiments";
 import Footer from "../components/general/footer";
 
 class Engineering extends Component {
@@ -17,6 +18,7 @@ class Engineering extends Component {
         <Molecular />
         <Computational />
         <BioParts />
+        <Experiments />
         <Footer />
       </main>
     );

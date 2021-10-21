@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-//import Vid from "./../../video-prom.mp4";
 
 import "./projvid.css";
 
@@ -8,23 +7,22 @@ class ProjectVideo extends Component {
     return (
       <div className="proj-provd">
         <div className="provd-title">Project Presentation video</div>
-        <div className="provd-subt">
-          UTEC-Perú: Lecchain (2021) - Team Presentation [Spanish]
-        </div>
         <div className="provd-ttl">
-          <b>Title: </b> FlavoFlow - a comprehensive exogenous fish infections
-          detection, treatment and prevention strategy.
+          <b>Title: </b> Lecchain - A novel subunit, oral and thermostable
+          vaccine for COVID-19.
         </div>
         <div className="provd-desc">
-          <b>Abstract: </b>Throughout the United States, 23.1 million people
-          lack access to fresh and affordable produce. Lambert iGEM presents
-          Agrosense, a community-based aquaponics system that integrates
-          synthetic biology. By engineering nutrient biosensors, we aim to
-          reduce maintenance costs for aquaponics systems. With a focus on
-          empowering communities, we plan to partner with schools and
-          organizations to educate next-generation agriculture technology
-          leaders on the intersection of aquaponics, synthetic biology, and
-          engineering.
+          <b>Abstract: </b>Complex logistics, distribution, and storage of most
+          COVID-19 vaccines are a huge barrier to achieve immunization for
+          low-income countries. UTEC-Peru aims to face this problem with a novel
+          vaccine for COVID-19. Our solution is based on a chimeric antigen
+          composed by the Receptor Binding Domain (RTB) antigen of SARS-COV-2
+          and the plant lectin Ricin Toxin B (RTB). By engineering an E.coli for
+          producing both proteins and thanks to the properties demonstrated by
+          the scientific evidence around RTB as a mucosal adjuvant and the
+          potential thermostable properties of plant lectins we can have a
+          vaccine that does not require cold chains. Join us to see all the way
+          we have traveled to reach our final proposal: Lecchain.
         </div>
         <div className="provd-video">
           <iframe
@@ -36,33 +34,29 @@ class ProjectVideo extends Component {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          {/* <video controls>
-            <source src="" type="video/mp4" />
-            video not supported.
-          </video> */}
         </div>
         <div className="provd-crdts">
-          <b>Credits:</b>
+          <b>Credits</b>
           <div className="crdts-dir">
-            <b>Director/Producer: </b>Kathy Ye
+            <b>Film makers: </b>Massiel Copara & Nathaly Dongo
           </div>
           <div className="crdts-edit">
-            <b>Editor: </b>Payton Gray, Kathy Ye
+            <b>Quechua Translation: </b>Jose Antonio Mendoza Valencia
           </div>
           <div className="crdts-nar">
-            <b>Narrator: </b>Sri Pinnamaredy
+            <b>Music Credits: </b>
           </div>
           <div className="crdts-cam">
-            <b>Camera Operators: </b>Kathy Ye, Janet Standeven, Saif Khan, Zoya
-            Mir
+            <b>Sound Editor: </b>Nathaly Dongo & Massiel Copara
           </div>
           <div className="crdts-brns">
-            <b>Brainstorming Committee: </b>Kathy Ye, Zoya Mir, Nega Lingam, Sri
-            Pinnamaredy
+            <b>Clips Credits: </b>
           </div>
           <div className="crdts-gen">
-            <b>General Video Committee: </b>Aditya Prabhaker, Faith Johnson,
-            Melanie Kim, Neha Lingam
+            <b>Participants: </b>Allison Aldoradin, Gladys Cavero, Massiel
+            Copara, Nathaly Dongo, Yomali Ferreyra, Ximena Fernández, Marcelo
+            Hurtado, Maria De Fátima Salazar, Diana Peña, Luis Quesada & Amalia
+            Villena
           </div>
         </div>
       </div>

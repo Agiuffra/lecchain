@@ -6,7 +6,7 @@ class BioParts extends Component {
   render() {
     return (
       <div className="eng-bioparts">
-        <div className="bioparts-title">Promotional video</div>
+        <div className="bioparts-title">Parts</div>
         <div className="bioparts-sect">
           <div className="sect-title">Basic Parts</div>
           <div className="sect-table">

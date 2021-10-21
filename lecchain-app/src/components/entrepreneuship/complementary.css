@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.entrep-complementary {
+  font-family: "Inter";
+  background-color: #d4fafc;
+  color: #18191f;
+  padding: 70px 80px 1px 80px;
+}
+
+.comp-title {
+  color: #30c5ce;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.comp-desc {
+  margin-bottom: 25px;
+}
+
+.comp-desc-sect {
+  margin-bottom: 45px;
+}
+
+.desc-sect-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.desc-sect-text {
+  margin-bottom: 15px;
+}
+
+.desc-sect-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
