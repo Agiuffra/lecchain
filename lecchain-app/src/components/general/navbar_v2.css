@@ -11,22 +11,13 @@ li {
   align-items: center;
 }
 
+.nodisp {
+  display: none;
+}
+
 .navbar-link-lecchain {
-  /*color: white;*/
   margin: 0px 50px;
 }
-
-.navbar-link-lecchain-white {
-  color: white;
-}
-
-.navbar-link-lecchain-black {
-  color: #18191F;
-}
-
-/*.navbar-nor-back-lecchain .navbar-link-lecchain {
-  color: white;
-}*/
 
 .navbar-sel-back-lecchain .navbar-link-lecchain {
   color: #2ec5ce;
@@ -36,10 +27,6 @@ li {
   color: red;
   text-decoration: none;
   transition: 0.3s ease;
-}
-
-.nodisp {
-  display: none;
 }
 
 .dropdown-lecchain {

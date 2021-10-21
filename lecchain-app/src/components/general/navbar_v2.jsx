@@ -64,17 +64,11 @@ class Navbar extends Component {
           <div
             className={
               this.props.idx === "0"
-                ? "navbar-sel-back-lecchain"
-                : "navbar-nor-back-lecchain"
+                ? "navbar-sel-back-lecchain about-lecchain-button"
+                : "navbar-nor-back-lecchain about-lecchain-button"
             }
           >
-            <a className={`navbar-link-lecchain 
-                            ${
-                              this.props.color === "black"
-                                ? "navbar-link-lecchain-black"
-                                : "navbar-link-lecchain-white"
-                            }`
-                          } href="/about">
+            <a className="navbar-link-lecchain" href="/about">
               About
             </a>
             <ul
@@ -97,13 +91,7 @@ class Navbar extends Component {
                 : "navbar-nor-back-lecchain about-lecchain-button"
             }
           >
-            <a className={`navbar-link-lecchain 
-                            ${
-                              this.props.color === "black"
-                                ? "navbar-link-lecchain-black"
-                                : "navbar-link-lecchain-white"
-                            }`
-                          } href="/project">
+            <a className="navbar-link-lecchain" href="/project">
               Project
             </a>
             <ul
@@ -127,13 +115,7 @@ class Navbar extends Component {
                 : "navbar-nor-back-lecchain"
             }
           >
-            <a className={`navbar-link-lecchain 
-                            ${
-                              this.props.color === "black"
-                                ? "navbar-link-lecchain-black"
-                                : "navbar-link-lecchain-white"
-                            }`
-                          } href="/engineering">
+            <a className="navbar-link-lecchain" href="/engineering">
               Engineering
             </a>
           </div>
@@ -144,13 +126,7 @@ class Navbar extends Component {
                 : "navbar-nor-back-lecchain"
             }
           >
-            <a className={`navbar-link-lecchain 
-                            ${
-                              this.props.color === "black"
-                                ? "navbar-link-lecchain-black"
-                                : "navbar-link-lecchain-white"
-                            }`
-                          } href="/human-practices">
+            <a className="navbar-link-lecchain" href="/human-practices">
               Human Practices
             </a>
           </div>
@@ -161,13 +137,7 @@ class Navbar extends Component {
                 : "navbar-nor-back-lecchain"
             }
           >
-            <a className={`navbar-link-lecchain 
-                            ${
-                              this.props.color === "black"
-                                ? "navbar-link-lecchain-black"
-                                : "navbar-link-lecchain-white"
-                            }`
-                          } href="/entrepreneurship">
+            <a className="navbar-link-lecchain" href="/entrepreneurship">
               Entrepreneurship
             </a>
           </div>
