@@ -7,7 +7,7 @@ class Community extends Component {
     return (
       <div className="humprac-comm">
         <div className="comm-title">Community</div>
-        <div className="comm-txt">
+        <div className="comm-text">
           COVID-19 has brought to light a lot of aspects around public health
           and vaccination. People more than never, are aware of their
           immunological system and in having a health lifestyle. Different
@@ -28,7 +28,7 @@ class Community extends Component {
             width="700px"
           />
         </div>
-        <div className="comm-txt">
+        <div className="comm-text">
           In a way to have opinions from both users and experts from different
           regions of our country, we have made contact with people from the
           majority of places in Peru. Above all, those where vaccination was
@@ -41,7 +41,7 @@ class Community extends Component {
             width="700px"
           />
         </div>
-        <div className="comm-txt">
+        <div className="comm-text">
           The following presents Lecchain ‘s community. Thanks to them we
           developed a project with a social and human vision.
         </div>

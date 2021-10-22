@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.humprac-divninc {
+  font-family: "Inter";
+  background-color: #f4f5f7;
+  padding: 75px;
+  padding-bottom: 10px;
+}
+
+.divninc-title {
+  color: #2ec5ce;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.divninc-text {
+  color: #18191f;
+  font-size: 20px;
+  font-weight: regular;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.divninc-source {
+  color: #18191f;
+  font-size: 20px;
+  font-weight: regular;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.divninc-img {
+  text-align: center;
+  padding: 20px;
+}
+
+.source-title {
+  font-weight: bold;
+}

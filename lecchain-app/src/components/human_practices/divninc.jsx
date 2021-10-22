@@ -6,7 +6,7 @@ class DivNInc extends Component {
   render() {
     return (
       <div className="humprac-divninc">
-        <div className="divninc">Diversity & Inclusion</div>
+        <div className="divninc-title">Diversity & Inclusion</div>
       </div>
     );
   }

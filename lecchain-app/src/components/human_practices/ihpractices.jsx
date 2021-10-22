@@ -7,7 +7,7 @@ class IHPractices extends Component {
     return (
       <div className="humprac-ihpract">
         <div className="ihpract-title">Integrated Human Practices</div>
-        <div className="ihpract-txt">
+        <div className="ihpract-text">
           To fully understand the problem and design a plan to address it, our
           team utilized Lecchain’s human-centered design process which leads to
           the integration with key stakeholders (see Community) and end users
