@@ -11,7 +11,7 @@ class EntrepInit extends Component {
           <img src={icon} alt="" height="540" />
         </div>
         <div className="entr-init-txt">
-          <div>ENTRE</div>
+          <div>ENTRADA</div>
           <div>PRENEUR</div>
           <div>SHIP</div>
         </div>
