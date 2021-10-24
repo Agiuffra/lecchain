@@ -6,9 +6,9 @@ class Experiments extends Component {
   render() {
     return (
       <div className="proj-exp">
-        <div className="exp-title">Experiments</div>
+        <div className="exp-title">Test</div>
         <div className="exp-desgn">
-          <div className="desgn-title">Experimental Design</div>
+          <div className="desgn-title">Experiments</div>
           <div className="desgn-cont"></div>
         </div>
         <div className="exp-metho">

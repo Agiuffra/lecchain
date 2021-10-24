@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  font-family: "Inter";
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 75vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: white;
+  border-radius: 25px;
+  padding: 20px;
+  overflow: auto;
+}
+
+.close-icon {
+  position: fixed;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-content {
+  display: flex;
+  gap: 50px;
+}
+
+.res-content-title {
+  color: #2ec5ce;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.res-sect-title {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.res-sect-title:hover {
+  color: red;
+}
+
+.selected-sect {
+  color: #2ec5ce;
+}
+
+.show {
+  display: block;
+}
+
+.noshow {
+  display: none;
+}
+
+.res-sect-text {
+  margin-bottom: 10px;
+}
+
+.end-content-txt {
+  margin-bottom: 15px;
+}
+
+.res-selection-title {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.selection-division {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.iteration {
+  background-color: #2ec5ce;
+  margin-bottom: 5px;
+  text-align: center;
+  border-radius: 25px;
+  color: #f4f5f7;
+  font-weight: bold;
+}
+
+.iteration:hover {
+  color: #2ec5ce;
+  background-color: #f4f5f7;
+}
+
+.iteration-selected {
+  color: #2ec5ce;
+  background-color: #f4f5f7;
+}
+
+.poposals-list-ol {
+  color: black;
+}
+
+.proposals-list-li {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0px;
+}
+
+.proposals-list-li b {
+  color: #2ec5ce;
+}

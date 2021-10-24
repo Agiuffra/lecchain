@@ -1,38 +1,65 @@
 import React, { Component } from "react";
+import Research from "./popups/research";
+import Optimization from "./popups/optimization";
 
 import "./circuit.css";
 
 class Circuit extends Component {
+  constructor(props) {
+    super(props);
+  }
+  state = {
+    research: false,
+    optimization: false,
+  };
+  toggleResearch = () => {
+    this.setState({
+      research: !this.state.research,
+    });
+  };
+  toggleOptimization = () => {
+    this.setState({
+      optimization: !this.state.optimization,
+    });
+  };
   render() {
     return (
       <div className="eng-circuit">
         <div className="circuit-title">Design</div>
-        <div className="circuit-txt">
-          Lecchain was born with the aim of being the first step towards the
-          production of more accessible vaccines, which allow reaching the most
-          remote places not only of the country, but of all those where
-          maintaining cold chains is difficult and expensive.
-        </div>
-        <div className="circuit-txt">
-          Lecchain is a subunit, oral and thermostable vaccine candidate for
-          COVID-19 based on the RBD Spike protein joined to the adjuvant Ricin
-          Toxin B (RTB), which serves as an antigen delivered to the mucosal
-          immune system. This fusion will, ideally, improve thermal stability of
-          the antigen and will allow its proper lyophilization because of the
-          lectin’s properties.
-        </div>
-        <div className="circuit-txt">
-          Unlike current commercial vaccines, Lecchain will represent an
-          innovative vaccine candidate which supports room temperature and could
-          be transported without a cold chain, produced using a cheap bioreactor
-          system, and without generating waste.
-        </div>
-        <div className="circuit-ref">
-          <div className="ref-title">References</div>
-          <div className="ref-ref">
-            [1] Autor, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        <div className="circuit-sect">
+          <div className="circuit-txt">
+            <b>Lecchain</b>‘s engineering cycle is based on the steps of{" "}
+            <b>design, build, test and learn</b>. One of the main parts of this
+            cycle is the design aspect. Hence, in order to deeply go into this
+            part we made a slight modification to the common diagram and
+            proposed a design part based on a diamont diagram. This will clearly
+            explain how our{" "}
+            <b>
+              proposal research has been iterated a lot of times throughout
+              steps of discovery and definition
+            </b>{" "}
+            and guide us to <b>propose</b> an initial solution. After this,
+            steps of <b>optimization</b> which involve{" "}
+            <b>computational approach</b> of the <b>chimeric antigen</b> are
+            developed to <b>propose a final solution</b>.
+          </div>
+          <div className="circuit-img">
+            <img
+              src={process.env.PUBLIC_URL + "/engineering/design.png"}
+              alt=""
+              width="800px"
+            />
+            <div className="img-rsrch-btn" onClick={this.toggleResearch}></div>
+            <div
+              className="img-optim-btn"
+              onClick={this.toggleOptimization}
+            ></div>
           </div>
         </div>
+        {this.state.research ? <Research toggle={this.toggleResearch} /> : null}
+        {this.state.optimization ? (
+          <Optimization toggle={this.toggleOptimization} />
+        ) : null}
       </div>
     );
   }

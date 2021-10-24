@@ -2,8 +2,8 @@
 
 .eng-circuit {
   font-family: "Inter";
-  background-color: #18191f;
-  color: white;
+  background-color: #f4f5f7;
+  color: #18191f;
   padding: 70px 80px 70px 80px;
 }
 
@@ -11,17 +11,52 @@
   color: #2ec5ce;
   font-size: 36px;
   font-weight: bolder;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
+}
+
+.circuit-sect {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .circuit-txt {
-  margin-bottom: 15px;
+  text-align: center;
+}
+
+.circuit-txt b {
+  color: #2ec5ce;
 }
 
 .circuit-ref {
   margin-top: 150px;
 }
 
-.ref-title {
-  margin-bottom: 15px;
+/* .circuit-img img {
+  position: relative;
+} */
+
+.img-rsrch-btn {
+  margin: -640px 0px 0px 140px;
+  width: 158px;
+  height: 25px;
+  position: absolute;
+}
+
+.img-rsrch-btn:hover {
+  background-color: rgba(244, 245, 247, 0.5);
+  transition: 0.3s ease;
+}
+
+.img-optim-btn {
+  margin: -640px 0px 0px 468px;
+  width: 210px;
+  height: 25px;
+  position: absolute;
+}
+
+.img-optim-btn:hover {
+  background-color: rgba(244, 245, 247, 0.5);
+  transition: 0.3s ease;
 }
