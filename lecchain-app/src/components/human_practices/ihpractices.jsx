@@ -9,9 +9,9 @@ class IHPractices extends Component {
         <div className="ihpract-title">Integrated Human Practices</div>
         <div className="ihpract-text">
           To fully understand the problem and design a plan to address it, our
-          team utilized Lecchain’s human-centered design process which leads to
-          the integration with key stakeholders (see Community) and end users
-          throughout the project lifecycle. To do this, with each new idea and
+          team utilized <b> Lecchain’s human-centered design process </b> which leads to
+          the integration with key <b> stakeholders </b> (see <b> Community</b>) and <b> end users
+          throughout the project lifecycle</b>. To do this, with each new idea and
           feedback we cycled iteratively through all the human process pathway.
         </div>
         <div className="ihpract-img">
