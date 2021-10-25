@@ -12,11 +12,11 @@ class Build extends Component {
           <div className="bld-sect-title">Circuit Design</div>
           <div className="bld-sect-contnt">
             <div className="bld-img">
-              <img
+              {/* <img
                 src={process.env.PUBLIC_URL + "/team/Marcelo.jpeg"}
                 alt=""
                 width="90%"
-              />
+              /> */}
             </div>
             <div className="bld-txt">
               <div>
@@ -74,7 +74,7 @@ class Build extends Component {
               Control cases in the cloning plasmid pGEM-T Easy
             </div>
             <div className="ctrlcases-img">
-              <img
+              {/* <img
                 src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
                 alt=""
                 width="400px"
@@ -88,12 +88,12 @@ class Build extends Component {
                 src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
                 alt=""
                 width="400px"
-              />
+              /> */}
             </div>
           </div>
           <div className="sect-ctrlcases">
             <div className="ctrlcases-img">
-              <img
+              {/* <img
                 src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
                 alt=""
                 width="400px"
@@ -107,7 +107,7 @@ class Build extends Component {
                 src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
                 alt=""
                 width="400px"
-              />
+              /> */}
             </div>
             <div className="ctrlcases-title">
               Control cases in the expression plasmid pET-28 (b) +
@@ -118,7 +118,7 @@ class Build extends Component {
               Treatment 1 - pGEM-T Easy and pET-28 (b) +
             </div>
             <div className="ctrlcases-img">
-              <img
+              {/* <img
                 src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
                 alt=""
                 width="400px"
@@ -127,12 +127,12 @@ class Build extends Component {
                 src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
                 alt=""
                 width="400px"
-              />
+              /> */}
             </div>
           </div>
           <div className="sect-ctrlcases">
             <div className="ctrlcases-img">
-              <img
+              {/* <img
                 src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
                 alt=""
                 width="400px"
@@ -141,7 +141,7 @@ class Build extends Component {
                 src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
                 alt=""
                 width="400px"
-              />
+              /> */}
             </div>
             <div className="ctrlcases-title">
               Treatment 2 - pGEM-T Easy and pET-28 (b) +

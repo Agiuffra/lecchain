@@ -58,7 +58,9 @@ class Antigen4 extends Component {
                   </li>
                 </ul>
               </div>
-              <div className="subpopup-content-img">aquí va una imagen</div>
+              <div className="subpopup-content-img">
+                {/* aquí va una imagen */}
+              </div>
               <div className="subpopup-content-img">
                 <img
                   src={

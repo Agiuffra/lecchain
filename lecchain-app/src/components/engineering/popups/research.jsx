@@ -193,11 +193,11 @@ class Research extends Component {
                 N-glycosylation sites.
               </div>
               <div className="sect-img">
-                <img
+                {/* <img
                   src={process.env.PUBLIC_URL + "/team/Marcelo.jpeg"}
                   alt=""
                   width="90%"
-                />
+                /> */}
               </div>
             </div>
             <div

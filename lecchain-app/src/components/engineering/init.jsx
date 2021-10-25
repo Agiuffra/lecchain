@@ -10,8 +10,8 @@ class EngineeringInit extends Component {
         <div className="init-content">
           <div className="content-title">ENGINEERING</div>
           <div className="content-desc">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
-            ratione cumque accusamus quia ipsam numquam esse aperiam vero.
+            {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
+            ratione cumque accusamus quia ipsam numquam esse aperiam vero. */}
           </div>
           <div className="content-icon">
             <img src={learnmore} alt="learn-more" />

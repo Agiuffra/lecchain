@@ -36,11 +36,11 @@ class Experiments extends Component {
               </div>
             </div>
             <div className="desgn-img">
-              <img
+              {/* <img
                 src={process.env.PUBLIC_URL + "/engineering/design.png"}
                 alt=""
                 width="45%"
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -48,11 +48,11 @@ class Experiments extends Component {
           <div className="metho-title">Methodology</div>
           <div className="metho-cont">
             <div className="metho-img">
-              <img
+              {/* <img
                 src={process.env.PUBLIC_URL + "/engineering/design.png"}
                 alt=""
                 width="45%"
-              />
+              /> */}
             </div>
             <div className="metho-txt">
               <div>
@@ -119,22 +119,22 @@ class Experiments extends Component {
                   </div>
                 </div>
                 <div className="proto-sect-img">
-                  <img
+                  {/* <img
                     src={process.env.PUBLIC_URL + "/engineering/design.png"}
                     alt=""
                     width="45%"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
             <div className="proto-sect">
               <div className="proto-sect-contnt">
                 <div className="proto-sect-img">
-                  <img
+                  {/* <img
                     src={process.env.PUBLIC_URL + "/engineering/design.png"}
                     alt=""
                     width="45%"
-                  />
+                  /> */}
                 </div>
                 <div className="proto-sect-txt">
                   <div className="proto-sect-title">

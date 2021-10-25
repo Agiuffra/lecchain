@@ -38,7 +38,9 @@ class Antigen3 extends Component {
                 can alter the quality and quantity of adaptive immune responses
                 [22].
               </div>
-              <div className="subpopup-content-img">aquí va una imagen</div>
+              <div className="subpopup-content-img">
+                {/* aquí va una imagen */}
+              </div>
               <div className="subpopup-content-text">
                 Subunit vaccines delivered via a mucosal route can initiate
                 infection by first interacting with a mucosal surface. A
