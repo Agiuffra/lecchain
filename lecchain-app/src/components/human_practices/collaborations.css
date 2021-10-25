@@ -7,10 +7,28 @@
   padding-bottom: 10px;
 }
 
+.humprac-collab b {
+  color: #2ec5ce;
+}
+
 .collab-title {
   color: #2ec5ce;
   font-size: 36px;
   font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.collab-subtitle {
+  color: #2ec5ce;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.collab-subsubtitle {
+  color: #2ec5ce;
+  font-size: 20px;
+  font-weight: bold;
   margin-bottom: 25px;
 }
 
@@ -32,7 +50,45 @@
 
 .collab-img {
   text-align: center;
-  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.collab-sect {
+  text-align: center;
+}
+
+.collab-sect-img {
+  text-align: center;
+}
+
+.collab-sect-sep {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.collab-sect-person {
+  display: flex;
+  padding: 20px 0px;
+  padding-left: 75px;
+  font-size: 20px;
+}
+
+.collab-sect-person-img {
+  padding: 0px 50px;
+  border-collapse: separate; 
+}
+
+.collab-sect-person-img img {
+  border-radius: 50%;
+}
+
+.collab-sect-person-logo {
+  padding: 0px 50px;
+}
+
+.collab-sect-person-text {
+  text-align: justify;
+  vertical-align: middle;
 }
 
 .source-title {

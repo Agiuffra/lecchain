@@ -22,6 +22,15 @@
   margin-bottom: 15px;
 }
 
+.ovrvw-text b {
+  color: #2ec5ce;
+}
+
+.ovrvw-img {
+  text-align: center;
+  padding: 20px;
+}
+
 .ovrvw-source {
   color: #18191f;
   font-size: 20px;

@@ -8,31 +8,38 @@ class Overview extends Component {
       <div className="humprac-ovrvw">
         <div className="ovrvw-title">The Problem</div>
         <div className="ovrvw-text">
-          Peru is a very demographic limited country that does not have the
-          sufficient resources and conditions for managing proper cold-chains in
-          most of its regions. Actually, by 2019 about two million of the total
-          population did not have access to electricity in their communities
+          Peru is a very <b>demographic limited country that does not have the
+          sufficient resources and conditions for managing proper cold-chains</b> in
+          most of its regions. Actually, by 2019 about <b>two million of the total
+          population did not have access to electricity in their communities</b>
           [1]. An important point considering that in a country where one in
-          five rural households does not have access to electricity through the
+          <b>five rural households does not have access to electricity through the
           public grid, storing and distributing vaccines at the correct
-          temperature can be challenging [1]. Probably the reason why there is a
-          demographic vaccination difference between the peruvian regions, where
-          only 5 of them have achieved more than 30% of the population [2].
+          temperature can be challenging</b> [1]. Probably the reason why there is a
+          demographic vaccination difference between the <b>peruvian regions</b>, where
+          only <b>5 of them have achieved more than 30% of the population</b> [2].
         </div>
         <div className="ovrvw-text">
-          The way doctors and nurses face this problem in Peru is by having a
-          cold chain at the regional level, this is it, in the central part of
-          the region. There, refrigerators and freezers are installed to keep
-          vaccines in proper temperatures but for a limited time and health
-          professionals need cold boxes for carrying out vaccines from the
+          The way <b>doctors and nurses</b> face this problem in Peru is by <b>having a
+          cold chain at the regional level</b>, this is it, in the <b>central part of
+          the region</b>. There, <b>refrigerators and freezers are installed to keep
+          vaccines in proper temperatures</b> but for a <b>limited time</b> and health
+          professionals <b>need cold boxes for carrying out vaccines</b> from the
           central part to the communities. However, due to the rugged geography
-          of our country it is very difficult to get there by walking or by car,
-          most of the time they need boats to arrive at the immunization sites.
-          All this route, apart from being difficult, can take many hours;
-          turning in a real problem for nurses to bring vaccines to every person
-          in the region before losing their effectiveness. Like Peru, there are
+          of our country it is very difficult to get there by <b>walking or by car</b>,
+          most of the time they <b>need boats to arrive at the immunization sites</b>.
+          All this route, apart from being difficult, can take many hours; 
+          <b>turning in a real problem for nurses to bring vaccines to every person
+          in the region before losing their effectiveness</b>. Like Peru, there are
           many other countries that have so many deficiencies for maintaining a
           correct cold chain and COVID-19 has brought them to light.
+        </div>
+        <div className="ovrvw-img">
+          <img
+            src={process.env.PUBLIC_URL + "/humanpract/coldchain.png"}
+            alt=""
+            width="700px"
+          />
         </div>
         <div className="ovrvw-source">
           <div className="source-title">Source</div>

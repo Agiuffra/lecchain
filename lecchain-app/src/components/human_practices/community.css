@@ -7,6 +7,10 @@
   padding-bottom: 10px;
 }
 
+.humprac-comm b {
+  color: #2ec5ce;
+}
+
 .comm-title {
   color: #2ec5ce;
   font-size: 36px;
@@ -41,6 +45,36 @@
 
 .comm-sect-img {
   text-align: center;
+}
+
+.comm-sect-sep {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.comm-sect-person {
+  display: flex;
+  padding: 20px 0px;
+  padding-left: 75px;
+  font-size: 20px;
+}
+
+.comm-sect-person-img {
+  padding: 0px 50px;
+  border-collapse: separate; 
+}
+
+.comm-sect-person-img img {
+  border-radius: 50%;
+}
+
+.comm-sect-person-logo {
+  padding: 0px 50px;
+}
+
+.comm-sect-person-text {
+  text-align: justify;
+  vertical-align: middle;
 }
 
 .source-title {
