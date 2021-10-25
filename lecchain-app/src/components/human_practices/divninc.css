@@ -4,13 +4,33 @@
   font-family: "Inter";
   background-color: #f4f5f7;
   padding: 75px;
-  padding-bottom: 10px;
+  padding-bottom: 100px;
+}
+
+.humprac-divninc b {
+  color: #2ec5ce;
 }
 
 .divninc-title {
   color: #2ec5ce;
   font-size: 36px;
   font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.divninc-subtitle {
+  color: #2ec5ce;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+  font-style: italic;
+}
+
+.divninc-subsubtitle {
+  color: #2ec5ce;
+  font-size: 20px;
+  font-weight: bold;
   margin-bottom: 25px;
 }
 
@@ -32,7 +52,45 @@
 
 .divninc-img {
   text-align: center;
-  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.divninc-sect {
+  text-align: center;
+}
+
+.divninc-sect-img {
+  text-align: center;
+}
+
+.divninc-sect-sep {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.divninc-sect-person {
+  display: flex;
+  padding: 20px 0px;
+  padding-left: 75px;
+  font-size: 20px;
+}
+
+.divninc-sect-person-img {
+  padding: 0px 50px;
+  border-collapse: separate; 
+}
+
+.divninc-sect-person-img img {
+  border-radius: 50%;
+}
+
+.divninc-sect-person-logo {
+  padding: 0px 50px;
+}
+
+.divninc-sect-person-text {
+  text-align: justify;
+  vertical-align: middle;
 }
 
 .source-title {
