@@ -178,11 +178,11 @@ class Optimization extends Component {
                 design.
               </div>
               <div className="sect-img">
-                <img
+                {/* <img
                   src={process.env.PUBLIC_URL + "/team/Marcelo.jpeg"}
                   alt=""
                   width="90%"
-                />
+                /> */}
               </div>
             </div>
             <div
@@ -200,11 +200,11 @@ class Optimization extends Component {
                 plot of RTB_RBD_HistidineTag.
               </div>
               <div className="sect-img">
-                <img
+                {/* <img
                   src={process.env.PUBLIC_URL + "/team/Marcelo.jpeg"}
                   alt=""
                   width="90%"
-                />
+                /> */}
               </div>
               <div className="res-sect-text">
                 (GGGS)x3 linker shows the best in silico results for linking our
@@ -257,11 +257,11 @@ class Optimization extends Component {
                 respectively.
               </div>
               <div className="sect-img">
-                <img
+                {/* <img
                   src={process.env.PUBLIC_URL + "/team/Marcelo.jpeg"}
                   alt=""
                   width="90%"
-                />
+                /> */}
               </div>
               <div className="res-sect-text">
                 The next table shows the peptide, the residue, the relative
@@ -286,11 +286,11 @@ class Optimization extends Component {
                 in the next figure.
               </div>
               <div className="sect-img">
-                <img
+                {/* <img
                   src={process.env.PUBLIC_URL + "/team/Marcelo.jpeg"}
                   alt=""
                   width="90%"
-                />
+                /> */}
               </div>
               <div className="res-sect-text">
                 With the data obtained with the ScooP structure prediction and
