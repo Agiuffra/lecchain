@@ -46,7 +46,15 @@ class Lectin3 extends Component {
                 2017, the following lectins had applications of immunomodulatory
                 and in vivo experimental models of microbial infections.
               </div>
-              <div className="subpopup-content-img">aquí va una tabla</div>
+              <div className="subpopup-content-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table10.jpeg"
+                  }
+                  alt=""
+                  width="90%"
+                />
+              </div>
             </div>
             <div className="subpopup-content-title">
               <b>Define</b>: Do adjuvants have all we need for our solution?

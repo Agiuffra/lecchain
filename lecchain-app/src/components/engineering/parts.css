@@ -38,18 +38,9 @@
   padding: 10px 20px;
 }
 
-.header-1 {
-  width: 10%;
-}
-
-.header-2 {
-  width: 10%;
-}
-
-.header-4 {
-  width: 10%;
-}
-
+.header-1,
+.header-2,
+.header-4,
 .header-5 {
   width: 10%;
 }
@@ -61,6 +52,13 @@
 
 .sect-1 {
   color: #2ec5ce;
+}
+
+.sect-1:hover {
+  background-color: #2ec5ce;
+  color: #b5d9db;
+  font-weight: bold;
+  transition: 0.3s ease;
 }
 
 .table-sect td {

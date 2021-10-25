@@ -59,7 +59,15 @@ class Antigen4 extends Component {
                 </ul>
               </div>
               <div className="subpopup-content-img">aquí va una imagen</div>
-              <div className="subpopup-content-img">aquí va una tabla</div>
+              <div className="subpopup-content-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table7.jpeg"
+                  }
+                  alt=""
+                  width="90%"
+                />
+              </div>
               <div className="subpopup-content-text">
                 Some current vaccines for COVID-19 that are under development
                 use RBD region as the antigen of the virus.

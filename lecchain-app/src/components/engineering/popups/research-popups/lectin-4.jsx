@@ -50,7 +50,15 @@ class Lectin4 extends Component {
                 mucosal adjuvant, as low doses of it enhance the immune response
                 to fusion proteins.
               </div>
-              <div className="subpopup-content-img">aquí va una tabla</div>
+              <div className="subpopup-content-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table11.jpeg"
+                  }
+                  alt=""
+                  width="90%"
+                />
+              </div>
             </div>
             <div className="subpopup-content-title">
               <b>Define</b>: Is RTB the best candidate?

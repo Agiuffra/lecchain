@@ -46,7 +46,15 @@ class Lectin2 extends Component {
                 protection offered by each one. pfuMBP and Tli MBP protect the
                 passenger protein at higher temperatures than the others.
               </div>
-              <div className="subpopup-content-img">aquí va una tabla</div>
+              <div className="subpopup-content-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table9.jpeg"
+                  }
+                  alt=""
+                  width="90%"
+                />
+              </div>
             </div>
             <div className="subpopup-content-title">
               <b>Define</b>: Is MBP the best for our solution?

@@ -41,8 +41,24 @@ class Antigen2 extends Component {
                 Some of the advantages and drawbacks of different types of
                 subunit vaccines are listed below.
               </div>
-              <div className="subpopup-content-img">aquí va una tabla</div>
-              <div className="subpopup-content-img">aquí va una tabla</div>
+              <div className="subpopup-content-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table3.jpeg"
+                  }
+                  alt=""
+                  width="90%"
+                />
+              </div>
+              <div className="subpopup-content-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table4.jpeg"
+                  }
+                  alt=""
+                  width="90%"
+                />
+              </div>
               <div className="subpopup-content-text">
                 Currently, there are seven COVID-19 subunit vaccines in clinical
                 trials, with 50 other candidates under preclinical development,
@@ -51,7 +67,15 @@ class Antigen2 extends Component {
                 induce neutralizing antibodies, similarly to the majority of
                 SARS and MERS vaccines, which had differing levels of efficacy.
               </div>
-              <div className="subpopup-content-img">aquí va una tabla</div>
+              <div className="subpopup-content-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table5.jpeg"
+                  }
+                  alt=""
+                  width="90%"
+                />
+              </div>
             </div>
             <div className="subpopup-content-title">
               <b>Define</b>: Are subunit vaccines a good option?

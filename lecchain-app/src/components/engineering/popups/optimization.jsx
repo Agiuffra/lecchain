@@ -125,7 +125,9 @@ class Optimization extends Component {
               </div>
               <div className="sect-img">
                 <img
-                  src={process.env.PUBLIC_URL + "/team/Marcelo.jpeg"}
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table12.jpeg"
+                  }
                   alt=""
                   width="90%"
                 />
@@ -141,7 +143,9 @@ class Optimization extends Component {
               </div>
               <div className="sect-img">
                 <img
-                  src={process.env.PUBLIC_URL + "/team/Marcelo.jpeg"}
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table13.jpeg"
+                  }
                   alt=""
                   width="90%"
                 />
@@ -160,7 +164,9 @@ class Optimization extends Component {
               </div>
               <div className="sect-img">
                 <img
-                  src={process.env.PUBLIC_URL + "/team/Marcelo.jpeg"}
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table14.jpeg"
+                  }
                   alt=""
                   width="90%"
                 />
@@ -266,7 +272,9 @@ class Optimization extends Component {
               </div>
               <div className="sect-img">
                 <img
-                  src={process.env.PUBLIC_URL + "/team/Marcelo.jpeg"}
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table14.jpeg"
+                  }
                   alt=""
                   width="90%"
                 />
@@ -292,7 +300,9 @@ class Optimization extends Component {
               </div>
               <div className="sect-img">
                 <img
-                  src={process.env.PUBLIC_URL + "/team/Marcelo.jpeg"}
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table16.jpeg"
+                  }
                   alt=""
                   width="90%"
                 />

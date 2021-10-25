@@ -46,7 +46,15 @@ class Antigen3 extends Component {
                 tissues directly. Some mucosal adjuvants reported in the
                 literature are listed below.
               </div>
-              <div className="subpopup-content-img">aquí va una tabla</div>
+              <div className="subpopup-content-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table6.jpeg"
+                  }
+                  alt=""
+                  width="90%"
+                />
+              </div>
             </div>
             <div className="subpopup-content-title">
               <b>Define</b>: Are adjuvants the key?

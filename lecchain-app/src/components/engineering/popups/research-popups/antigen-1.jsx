@@ -32,7 +32,15 @@ class Antigen1 extends Component {
                 table summarizes the advantages and disadvantages of some of
                 them.
               </div>
-              <div className="subpopup-content-img">aquí va una tabla</div>
+              <div className="subpopup-content-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table1.jpeg"
+                  }
+                  alt=""
+                  width="90%"
+                />
+              </div>
               <div className="subpopup-content-text">
                 Unlike inactivated or live-attenuated viruses and some viral
                 vector vaccines, subunit vaccines are protein-based and contain
@@ -47,7 +55,15 @@ class Antigen1 extends Component {
                 composition made them to have different characteristics as
                 storage temperature.
               </div>
-              <div className="subpopup-content-img">aquí va una tabla</div>
+              <div className="subpopup-content-img">
+                <img
+                  src={
+                    process.env.PUBLIC_URL + "/engineering/popups/table2.jpeg"
+                  }
+                  alt=""
+                  width="90%"
+                />
+              </div>
               <div className="subpopup-content-text">
                 Despite many vaccines being stored in regular fridge
                 temperature, it equally requires cold chains in order to be
