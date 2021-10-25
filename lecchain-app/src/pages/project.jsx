@@ -16,10 +16,10 @@ class Project extends Component {
         <ProjectBanner />
         <Initial />
         <Description />
-        <Roadmap />
+        {/* <Roadmap /> */}
         <Infographic />
         <PromotionalVideo />
-        <ProjectVideo />
+        {/* <ProjectVideo /> */}
         <Footer />
       </main>
     );

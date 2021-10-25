@@ -32,6 +32,13 @@
   font-weight: bold;
 }
 
+.info-infography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+
 .cred-auths {
   margin-top: 10px;
 }
