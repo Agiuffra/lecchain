@@ -27,8 +27,26 @@
 }
 
 .ovrvw-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 20px;
+  gap: 50px;
+}
+
+.none {
+  display: none;
+}
+
+.ovrvw-img-img {
+  flex: 2;
+}
+
+.ovrvw-img-txt {
+  flex: 1;
+  font-size: 20px;
+  display: block;
 }
 
 .ovrvw-source {

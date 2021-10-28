@@ -4,6 +4,10 @@ import start from "./../../start.png";
 import "./init.css";
 
 class Initial extends Component {
+  soundGo = () => {
+    var snd = new Audio(process.env.PUBLIC_URL + "testaudio.ogg");
+    snd.play();
+  };
   render() {
     return (
       <div className="home-init">
@@ -11,7 +15,17 @@ class Initial extends Component {
           <div className="init-title">LECCHAIN</div>
           <div className="init-body">One more degree, one more life.</div>
           <div className="init-group">
-            <img src={start} alt="Start" className="init-group-image" />
+            <img
+              src={start}
+              alt="Start"
+              /* onClick={this.soundGo} */
+              className="init-group-image"
+            />
+            <div className="nones">
+              <audio id="audiox" controls>
+                <source src={process.env.PUBLIC_URL + "testaudio.ogg"} />
+              </audio>
+            </div>
             <div className="init-msg">ARE YOU READY TO SAVE LIVES WITH US?</div>
           </div>
         </div>
