@@ -14,7 +14,7 @@ class EngineeringBanner extends Component {
     return (
       <div className="engineering-banner">
         <div className="Logo">
-          <a href="./">
+          <a href="/">
             <img src={logo} alt="logo_lecchain" width="150px" />
           </a>
         </div>

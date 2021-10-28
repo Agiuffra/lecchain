@@ -15,10 +15,10 @@ class Initial extends Component {
       <div className="project-init">
         <div className="init-txt">
           <div className="txt-title">PROJECT</div>
-          <div className="txt-text">
+          {/* <div className="txt-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ex
             laboriosam reiciendis ut est tempora?
-          </div>
+          </div> */}
           <div className="txt-button" onClick={this.scrollProjPres}>
             <img src={learnmore} alt="learn-more" />
           </div>
