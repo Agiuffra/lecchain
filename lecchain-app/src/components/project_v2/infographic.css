@@ -13,13 +13,12 @@
   margin-bottom: 25px;
 }
 
-.info-slogn {
-  font-size: 23px;
-  font-weight: bold;
+.info-slogn-a {
   margin-bottom: 10px;
+  text-align: justify;
 }
 
-.info-slogn b {
+.info-slogn-a b {
   color: #2ec5ce;
 }
 

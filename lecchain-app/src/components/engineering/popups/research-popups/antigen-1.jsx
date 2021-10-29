@@ -25,12 +25,14 @@ class Antigen1 extends Component {
                 composition and interact with the human body.
               </div>
               <div className="subpopup-content-text">
-                There are several types of vaccines: inactivated vaccines,
-                live-attenuated vaccines, nucleic acid vaccines, subunit,
-                recombinant, polysaccharide, conjugate vaccines, toxoid
-                vaccines, and viral vector vaccines, and others. The following
-                table summarizes the advantages and disadvantages of some of
-                them.
+                There are several types of vaccines:{" "}
+                <b>
+                  inactivated vaccines, live-attenuated vaccines, nucleic acid
+                  vaccines, subunit, recombinant, polysaccharide, conjugate
+                  vaccines, toxoid vaccines, and viral vector vaccines
+                </b>
+                , and others. The following table summarizes the advantages and
+                disadvantages of some of them.
               </div>
               <div className="subpopup-content-img">
                 <img
@@ -43,11 +45,16 @@ class Antigen1 extends Component {
               </div>
               <div className="subpopup-content-text">
                 Unlike inactivated or live-attenuated viruses and some viral
-                vector vaccines, subunit vaccines are protein-based and contain
-                specific viral antigenic fragments. Subunitary vaccines do not
-                include any component of infectious viruses. Therefore, they
-                eliminate the concerns of incomplete inactivation, virulence
-                recovery, or pre-existing immunity [6], [7].
+                vector vaccines,{" "}
+                <b>
+                  subunit vaccines are protein-based and contain specific viral
+                  antigenic fragments
+                </b>
+                . Subunitary vaccines{" "}
+                <b>do not include any component of infectious viruses</b>.
+                Therefore, they eliminate the concerns of incomplete
+                inactivation, virulence recovery, or pre-existing immunity [6],
+                [7].
               </div>
               <div className="subpopup-content-text">
                 UCurrent vaccines for COVID-19 are from several types. Each of

@@ -9,7 +9,7 @@ class Infographic extends Component {
         <div className="info-title">
           Education and Communication Infographic
         </div>
-        <div className="info-slogn">
+        <div className="info-slogn-a">
           <b>Lecchain</b> has many advantages that differentiate it from current
           vaccines. From its thermotolerance to its modular design for producing
           novel vaccines. This infographic has been made to show a visual

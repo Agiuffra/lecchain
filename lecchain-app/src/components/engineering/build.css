@@ -27,6 +27,9 @@
 
 .bld-img {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bld-txt {
@@ -34,7 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: justify;
 }
 
 .bld-par {
@@ -51,21 +54,23 @@
 }
 
 .ctrlcases-title {
-  flex: 2;
+  flex: 3;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
   padding: 25px;
   text-align: center;
 }
 
 .ctrlcases-img {
-  flex: 3;
+  flex: 5;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-around;
   align-items: center;
+  background-color: #ffffff;
+  border-radius: 25px;
 }

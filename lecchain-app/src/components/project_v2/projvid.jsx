@@ -22,7 +22,7 @@ class ProjectVideo extends Component {
           the scientific evidence around RTB as a mucosal adjuvant and the
           potential thermostable properties of plant lectins we can have a
           vaccine that does not require cold chains. Join us to see all the way
-          we have traveled to reach our final proposal: Lecchain.
+          we have traveled to reach our final proposal: <b>Lecchain</b>.
         </div>
         <div className="provd-video">
           <iframe

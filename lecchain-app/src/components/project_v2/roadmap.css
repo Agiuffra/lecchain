@@ -4,15 +4,23 @@
   background-color: #d4fafc;
   font-family: "Inter";
   padding: 70px 80px 70px 80px;
+  text-align: justify;
 }
 
 .rdmp-title {
   font-size: 36px;
   font-weight: bolder;
   color: #2ec5ce;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.rdmp-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
 }
 
 .rdmp-intro {
-  margin-bottom: 500px;
+  margin-bottom: 20px;
 }

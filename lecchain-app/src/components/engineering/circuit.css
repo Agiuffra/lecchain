@@ -16,26 +16,23 @@
 
 .circuit-sect {
   display: flex;
+  flex-direction: column;
   gap: 50px;
   justify-content: center;
   align-items: center;
 }
 
 .circuit-txt {
-  text-align: center;
+  text-align: justify;
 }
 
 .circuit-txt b {
   color: #2ec5ce;
 }
 
-.circuit-ref {
-  margin-top: 150px;
+.circuit-cred {
+  margin-top: 40px;
 }
-
-/* .circuit-img img {
-  position: relative;
-} */
 
 .img-rsrch-btn {
   margin: -640px 0px 0px 140px;

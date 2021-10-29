@@ -15,7 +15,8 @@
 }
 
 .desc-txt {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  text-align: justify;
 }
 
 .desc-txt b {
@@ -23,7 +24,8 @@
 }
 
 .desc-ref {
-  margin-top: 150px;
+  margin-top: 20px;
+  font-size: 14px;
 }
 
 .ref-title {
@@ -36,4 +38,29 @@
 
 .ref-ref a {
   color: #2ec5ce;
+}
+
+.desc-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 50px;
+}
+
+.none {
+  display: none;
+}
+
+.desc-img-img {
+  flex: 2;
+  background-color: #f4f5f7;
+  padding: 50px;
+}
+
+.desc-img-txt {
+  flex: 1;
+  font-size: 20px;
+  display: block;
 }

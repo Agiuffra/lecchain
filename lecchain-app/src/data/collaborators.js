@@ -31,7 +31,7 @@ const collaborators = [
         id: 4,
         name: "María Casas",
         description: "-",
-        rol: "Baja Vision",
+        rol: "Blind people advisor",
         image: "/collaborators/maria-casas.jpeg"
     }
 ]

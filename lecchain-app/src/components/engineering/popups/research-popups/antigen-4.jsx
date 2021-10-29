@@ -26,35 +26,39 @@ class Antigen4 extends Component {
                 fusion, and enter into host cells.
               </div>
               <div className="subpopup-content-text">
-                We found some properties of SARS-CoV2 RBD:
+                We found some properties of <b>SARS-CoV2 RBD</b>:
                 <ul>
                   <li className="subpopup-li">
                     <div>-</div>
                     RBD is an antigen located in the S1 subunit in S protein.
-                    because it can bind strongly to the human
-                    angiotensin-converting enzyme 2 (ACE2) to mediate a key role
-                    in viral entry [2], [26].
+                    because it <b>can bind strongly</b> to the human
+                    angiotensin-converting enzyme 2 (<b>ACE2</b>) to{" "}
+                    <b>mediate a key role in viral entry</b> [2], [26].
                   </li>
                   <li className="subpopup-li">
                     <div>-</div>
-                    RBD generates neutralizing antibodies (NAb) that bind
+                    RBD <b>generates neutralizing antibodies</b> (NAb) that bind
                     directly to the RBD and compete with the cellular receptor,
                     ACE2, resulting in neutralization of viral infection and
                     clearance of the virus [27], [28]. Even in infected
-                    patients, anti-SARS-CoV-2 RBD antibodies can bind distinct
-                    domains on the RBD and neutralize SARS-CoV-2 [29]. It was
-                    identified that neutralizing RBD antibodies like S2H97 could
-                    bind to several SARS-CoV2 strains [30].
+                    patients,{" "}
+                    <b>
+                      anti-SARS-CoV-2 RBD antibodies can bind distinct domains
+                      on the RBD and neutralize SARS-CoV-2
+                    </b>{" "}
+                    [29]. It was identified that neutralizing RBD antibodies
+                    like S2H97 could bind to several SARS-CoV2 strains [30].
                   </li>
                   <li className="subpopup-li">
                     <div>-</div>
-                    It is reported that RBD was expressed in Escherichia coli.
-                    By applying circular dichroism, fluorescence and
-                    Fourier-transform infrared spectroscopy techniques,
-                    conformational structure was almost unaltered. Even RBD
-                    produced in E coli did not have glycosylation, its secondary
-                    and tertiary structure was maintained and capable of
-                    strongly binding human ACE2. [2], [26].
+                    It is reported that{" "}
+                    <b>RBD was expressed in Escherichia coli</b>. By applying
+                    circular dichroism, fluorescence and Fourier-transform
+                    infrared spectroscopy techniques,{" "}
+                    <b>conformational structure was almost unaltered</b>. Even
+                    RBD produced in E coli did not have glycosylation, its
+                    secondary and tertiary structure was maintained and capable
+                    of strongly binding human ACE2. [2], [26].
                   </li>
                 </ul>
               </div>

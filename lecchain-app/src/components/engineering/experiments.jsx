@@ -12,27 +12,39 @@ class Experiments extends Component {
           <div className="desgn-cont">
             <div className="desgn-txt">
               <div>
-                The chimeric antigen RTB - RBD, Lecchain, will be evaluated and
-                compared through an experimental design its thermostable
-                properties with the pfuMBP - RBD construct (positive control).
-                This is because, as mentioned before, pfuMBP is a well-known
-                thermotolerant protein that has shown to increase thermal
-                properties of many peptides. Thus, a comparison between the
-                effects of both proteins to enhance thermotolerance of RBD will
-                guide the experiments.
+                The chimeric antigen <b>RTB - RBD</b>, <b>Lecchain</b>, will be
+                evaluated and compared through an experimental design its
+                thermostable properties with the <b>pfuMBP - RBD construct</b>
+                (positive control). This is because, as mentioned before,{" "}
+                <b>pfuMBP is a well-known thermotolerant protein</b> that has
+                shown to <b>increase thermal properties of many peptides</b>.
+                Thus, a{" "}
+                <b>
+                  comparison between the effects of both proteins to enhance
+                  thermotolerance of RBD will guide the experiments
+                </b>
+                .
               </div>
               <div>
                 In order to evaluate and demonstrate these thermal stability
                 properties the following experimental design is proposed. This
-                experiment is composed of three groups; a lyophilized and
-                non-lyophilized RTB-RBD construct, a lyophilized and
-                non-lyophilized PfuMBP-RBD construct and a control group
-                consisting of independent samples of RBD, RTB and PfuMBP. All
-                these groups will pass a thermostability assay and a SDS Page
-                evaluation to determine their integrity. Finally, a tertiary
-                protein structure immunoassay will be done in order to evaluate
-                immunological activity of RBD after being exposed to different
-                temperatures.
+                experiment is composed of three groups;{" "}
+                <b>
+                  a lyophilized and non-lyophilized RTB-RBD construct, a
+                  lyophilized and non-lyophilized PfuMBP-RBD construct and a
+                  control group
+                </b>
+                consisting of independent samples of <b>RBD, RTB and PfuMBP</b>.
+                All these groups will pass a{" "}
+                <b>thermostability assay and a SDS Page evaluation</b> to
+                determine their integrity. Finally, a{" "}
+                <b>tertiary protein structure immunoassay</b> will be done in
+                order to{" "}
+                <b>
+                  evaluate immunological activity of RBD after being exposed to
+                  different temperatures
+                </b>
+                .
               </div>
             </div>
             <div className="desgn-img">
@@ -48,11 +60,11 @@ class Experiments extends Component {
           <div className="metho-title">Methodology</div>
           <div className="metho-cont">
             <div className="metho-img">
-              {/* <img
-                src={process.env.PUBLIC_URL + "/engineering/design.png"}
+              <img
+                src={process.env.PUBLIC_URL + "/engineering/methodology.png"}
                 alt=""
-                width="45%"
-              /> */}
+                width="100%"
+              />
             </div>
             <div className="metho-txt">
               <div>
@@ -62,24 +74,27 @@ class Experiments extends Component {
               </div>
               <div>
                 For amplifying, all the constructs will be synthesized and
-                inserted into pGEM®-T Easy Vector, the control groups RTB and
-                MBP will be inserted between NcoI/SalI restriction sites and
-                RBD, RTB/RBD and MBP/RBD between NcoI/SacI. The same restriction
-                enzymes will be used to insert the constructs in the pET-28b
-                vector.
+                inserted into <b>pGEM®-T Easy Vector</b>, the control groups{" "}
+                <b>
+                  RTB and MBP will be inserted between NcoI/SalI restriction
+                  sites and RBD, RTB/RBD and MBP/RBD between NcoI/SacI
+                </b>
+                . The same restriction enzymes will be used to insert the
+                constructs in the pET-28b vector.
               </div>
               <div>
-                Recombinant pET28a plasmids will be transformed into E. coli
-                BL21(DE3) following the Kit One Shot® BL21(DE3) de INVITROGEN.
-                Protein will be purified using HisGraviTrap kit from
-                Qiagen™under denaturing conditions and samples will pass through
-                Nickel-sepharose columns and wash with imidazole in order to
-                isolate His-tagged proteins. The purified proteins will be
-                confirmed by SDS-PAGE analysis.
+                Recombinant <b>pET28a plasmids</b> will be transformed into E.
+                coli BL21(DE3) following the{" "}
+                <b>Kit One Shot® BL21(DE3) de INVITROGEN</b>. Protein will be
+                purified using HisGraviTrap kit from Qiagen™under denaturing
+                conditions and samples will pass through{" "}
+                <b>Nickel-sepharose columns</b> and wash with{" "}
+                <b>imidazole in order to isolate His-tagged proteins</b>. The
+                purified proteins will be confirmed by SDS-PAGE analysis.
               </div>
               <div>
-                Find more information in the Protocols document in the Document
-                Section.
+                Find more information in the Protocols document in the{" "}
+                <b>Document Section</b>.
               </div>
             </div>
           </div>
@@ -119,23 +134,25 @@ class Experiments extends Component {
                   </div>
                 </div>
                 <div className="proto-sect-img">
-                  {/* <img
-                    src={process.env.PUBLIC_URL + "/engineering/design.png"}
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + "/engineering/termo_assay.png"
+                    }
                     alt=""
-                    width="45%"
-                  /> */}
+                    width="90%"
+                  />
                 </div>
               </div>
             </div>
             <div className="proto-sect">
               <div className="proto-sect-contnt">
-                <div className="proto-sect-img">
+                {/* <div className="proto-sect-img">
                   {/* <img
                     src={process.env.PUBLIC_URL + "/engineering/design.png"}
                     alt=""
                     width="45%"
-                  /> */}
-                </div>
+                  /> 
+                </div> */}
                 <div className="proto-sect-txt">
                   <div className="proto-sect-title">
                     Tertiary protein structure immunoassay

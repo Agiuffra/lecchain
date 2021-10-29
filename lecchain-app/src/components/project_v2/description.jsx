@@ -3,10 +3,21 @@ import React, { Component } from "react";
 import "./description.css";
 
 class Description extends Component {
+  constructor(props) {
+    super(props);
+  }
+  state = {
+    im0: false,
+  };
+  toggleImage = () => {
+    this.setState({
+      im0: !this.state.im0,
+    });
+  };
   render() {
     return (
       <div className="proj-desc">
-        <div className="desc-title">Project Description and Motivation</div>
+        <div className="desc-title">Project Description</div>
         <div className="desc-txt">
           The current outbreak of the <b>novel coronavirus SARS-CoV-2</b> has
           paid a high toll in terms of human cost, reaching now almost{" "}
@@ -34,6 +45,21 @@ class Description extends Component {
           </b>{" "}
           [5]. In fact, it is reported that <b>80% of the vaccination cost</b>{" "}
           is due to the <b>cold chain</b> [6].
+        </div>
+        <div className="desc-img">
+          <img
+            src={process.env.PUBLIC_URL + "/humanpract/coldchain.png"}
+            alt=""
+            width="500px"
+            className="desc-img-img"
+            onClick={this.toggleImage}
+          />
+          <div className={this.state.im0 ? "desc-img-txt" : "none"}>
+            Vaccines need to pass complex cold chains from the factory, national
+            and regional storage facilities until reaching remote sites of
+            immunization. All this path involve lot of time and resources making
+            impossible to maintain mRNA vaccines.
+          </div>
         </div>
         <div className="desc-txt">
           To address this problem, a{" "}
@@ -64,6 +90,29 @@ class Description extends Component {
           <b>thermal-stability assays</b> and a final <b>immunological assay</b>{" "}
           based on an <b>Elisa</b> for{" "}
           <b>evaluating the proper tertiary structure integrity of the RBD</b>.
+        </div>
+        <div className="desc-txt">
+          Novel advances have shown that{" "}
+          <b>
+            synthetic biology enables the design and production of recombinant
+            systems
+          </b>
+          . This field represents an <b>innovative</b> and <b>cheaper tool</b>{" "}
+          for <b>redesigning organisms to modify</b> or{" "}
+          <b>enhance its functions</b>, and it has caught the attention of many
+          researchers. In fact, there are outnumbered applications in which
+          synthetic biology has offered a novel and effective solution. Lately,
+          recombinant systems have been employed to{" "}
+          <b>develop and produce genetically engineered proteins</b> since they
+          offer <b>many advantages</b> against chemical methods.
+        </div>
+        <div className="desc-txt">
+          To be more precise, <b>Escherichia coli systems</b> stand among others
+          as they are <b>easier and cheaper to maintain in time</b>. They also
+          have shown their capability to synthesize large quantities of material
+          making it cost-effective and sustainable. For this reason, producing a
+          <b>vaccine candidate using a recombinant expression system</b> is an
+          innovative and advantageous choice.
         </div>
         <div className="desc-ref">
           <div className="ref-title">References</div>

@@ -25,7 +25,7 @@ class Circuit extends Component {
   render() {
     return (
       <div className="eng-circuit">
-        <div className="circuit-title">Design</div>
+        <div className="circuit-title">Design and Results</div>
         <div className="circuit-sect">
           <div className="circuit-txt">
             <b>Lecchain</b>‘s engineering cycle is based on the steps of{" "}
@@ -54,6 +54,15 @@ class Circuit extends Component {
               className="img-optim-btn"
               onClick={this.toggleOptimization}
             ></div>
+          </div>
+        </div>
+        <div className="circuit-cred">
+          <b>Credits</b>
+          <div className="crdts-dir">
+            <b>Graphic Designer: </b>Maria de Fátima Salazar
+          </div>
+          <div className="crdts-edit">
+            <b>Graphic Designer: </b>Allison Aldoradin
           </div>
         </div>
         {this.state.research ? <Research toggle={this.toggleResearch} /> : null}

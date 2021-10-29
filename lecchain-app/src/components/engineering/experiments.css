@@ -11,7 +11,7 @@
   color: #2ec5ce;
   font-size: 36px;
   font-weight: bolder;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .desgn-title,
@@ -19,7 +19,7 @@
 .proto-title {
   font-size: 23px;
   font-weight: bolder;
-  margin: 25px 0px 15px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 .proto-sect-title {
@@ -34,14 +34,14 @@
   gap: 70px;
   justify-content: center;
   align-items: center;
-  margin: 50px 0px;
+  margin: 25px 0px;
+  text-align: justify;
 }
 
 .metho-txt,
 .desgn-txt,
 .proto-sect-txt {
-  flex: 1;
-  margin: 10px 0px;
+  flex: 4;
 }
 
 .metho-txt div,
@@ -53,8 +53,11 @@
 .desgn-img,
 .metho-img,
 .proto-sect-img {
-  flex: 1;
+  flex: 5;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 15px;
 }

@@ -119,47 +119,63 @@ class Research extends Component {
             >
               <div className="res-sect-text">
                 The first step though our design is to identify the problem. For
-                that, we have made a complete scheme to make the community part
-                of our solution. We design a solid proposal for attacking cold
-                chains under a human-centered design (see Integrated Human
-                Practices). In that part, we ensure to involve users to health
-                specialists (see Community).
+                that, we have made a complete scheme to make the{" "}
+                <b>community part of our solution</b>. We design a solid
+                proposal for{" "}
+                <b>attacking cold chains under a human-centered design</b>
+                (see <b>Integrated Human Practices</b>). In that part, we ensure
+                to involve users to health specialists (see <b>Community</b>).
               </div>
               <div className="res-sect-text">
                 As part of the results from different interviews, we found that
-                common problems involve hard-to-reach regions from the country.
-                Vaccines arrived with so much delay compared to the capital.
-                That is a big issue for both everyday people and health
-                professionals. The latters have to carry out all the vaccines in
-                cold boxes for a limited time before they get lost, walking for
-                long hours or traveling by boat to reach every community. Most
-                health professionals and nurses have experienced this kind of
-                issue with many vaccines as most of them are thermally labile.
+                <b>
+                  common problems involve hard-to-reach regions from the country
+                </b>
+                . Vaccines arrived with so{" "}
+                <b>much delay compared to the capital</b>. That is a big issue
+                for both everyday people and health professionals. The latters
+                have to{" "}
+                <b>
+                  carry out all the vaccines in cold boxes for a limited time
+                </b>{" "}
+                before they get lost, <b>walking for long hours</b> or{" "}
+                <b>traveling by boat</b> to reach every community. Most health
+                professionals and nurses have experienced this kind of issue
+                with many vaccines as most of them are thermally labile.
               </div>
               <div className="res-sect-text">
-                Moreover, infrastructure professionals commented that managing
-                cold chain logistics is a complex topic, even more so in a
-                pandemic where everyone needs a vaccine immediately. They have
-                stated that vaccines such as Pfizer/BionTech and Moderna have
-                caused a considerable impact on the country's cold chain. Apart
-                from the significant amount of money spent on ultra-low
+                Moreover, infrastructure professionals commented that{" "}
+                <b>managing cold chain logistics is a complex topic</b>, even
+                more so in a pandemic where everyone needs a vaccine
+                immediately. They have stated that vaccines such as
+                <b>
+                  Pfizer/BionTech and Moderna have caused a considerable impact
+                  on the country's cold chain
+                </b>
+                . Apart from the significant amount of money spent on ultra-low
                 freezers, they have modified many things around it. A big
-                challenge continues being maintaining a proper cold chain in
-                every region of the country. As part of the geography, lack of
-                hospitals and health centers, installing a cold chain is often
-                impossible. Finally, many users are apprehensive about vaccines'
-                efficiency. A lot of misinformation has spread throughout these
-                months; consequently, people are more worried than ever about
-                how much efficiency has been reported in the vaccine. To see
-                more information around the insights we have achieved with each
-                interview, see our Integrated Human Practices section.
+                challenge continues being{" "}
+                <b>
+                  maintaining a proper cold chain in every region of the country
+                </b>
+                . As part of the geography,{" "}
+                <b>lack of hospitals and health centers</b>, installing a cold
+                chain is often <b>impossible</b>. Finally, many users are
+                <b>apprehensive about vaccines' efficiency</b>. A lot of
+                misinformation has spread throughout these months; consequently,
+                people are more worried than ever about{" "}
+                <b>how much efficiency has been reported in the vaccine</b>. To
+                see more information around the insights we have achieved with
+                each interview, see our <b>Integrated Human Practices</b>{" "}
+                section.
               </div>
               <div className="res-sect-text">
-                Our community’s insights marked the first step throughout our
-                diamond design. Having understood the concerns and problems
-                around vaccination and cold chains, we continue researching
-                these topics, looking for more technical information. We start
-                by doing deep research around SARS-CoV 2. We study mechanisms of
+                Our community’s insights marked the{" "}
+                <b>first step throughout our diamond design</b>. Having
+                understood the <b>concerns and problems around vaccination</b>{" "}
+                and <b>cold chains</b>, we continue researching these topics,
+                looking for more technical information. We start by doing deep
+                <b>research around SARS-CoV 2</b>. We study mechanisms of
                 actions, structures and characteristics.
               </div>
               <div className="res-sect-text">
@@ -173,24 +189,29 @@ class Research extends Component {
                 (E), nucleocapsid (N), and membrane proteins (M) [2].
               </div>
               <div className="res-sect-text">
-                Spike (S) protein with 1273 aa consists of two domains: the S1
-                subunit (14–685 residues), and the S2 subunit (686–1273
-                residues). The last one contains regions that are responsible
-                for receptor binding and membrane fusion, respectively. In the
-                S1 subunit, there is an N-terminal domain (NTD) (14–305
-                residues) and a receptor-binding domain (RBD, 319–541 residues).
-                In the S2 subunit, there is a fusion peptide (FP) (788–806
-                residues), heptapeptide repeat sequence 1 (HR1) (912–984
-                residues), HR2 (1163–1213 residues), TM domain (1213–1237
-                residues), and a cytoplasm domain (1237–1273 residues) [3].
+                <b>Spike (S) protein</b> with 1273 aa consists of two domains:
+                the <b>S1 subunit</b> (14–685 residues), and the{" "}
+                <b>S2 subunit</b>
+                (686–1273 residues). The last one contains regions that are
+                responsible for <b>receptor binding and membrane fusion</b>,
+                respectively. In the S1 subunit, there is an N-terminal domain
+                (NTD) (14–305 residues) and a{" "}
+                <b>receptor-binding domain (RBD, 319–541 residues)</b>. In the
+                <b>S2 subunit</b>, there is a <b>fusion peptide (FP)</b>{" "}
+                (788–806 residues), heptapeptide repeat sequence 1 (<b>HR1</b>)
+                (912–984 residues), <b>HR2</b> (1163–1213 residues),{" "}
+                <b>TM domain</b>
+                (1213–1237 residues), and a <b>cytoplasm domain</b> (1237–1273
+                residues) [3].
               </div>
               <div className="res-sect-text">
-                SARS-CoV-2 S protein can bind to the endogenous receptor to
-                attach, fuse, and enter host cells. RBD is responsible for
-                binding firmly to the human angiotensin-converting enzyme 2
-                (ACE2) and mediating a key role in viral entry [3]. RBD contains
-                220 amino acid residues with nine cysteine residues and two
-                N-glycosylation sites.
+                <b>SARS-CoV-2 S protein</b> can bind to the endogenous receptor
+                to <b>attach, fuse, and enter host cells</b>.{" "}
+                <b>RBD is responsible for binding firmly</b> to the{" "}
+                <b>human angiotensin-converting enzyme 2 (ACE2)</b> and
+                mediating a <b>key role in viral entry</b> [3].{" "}
+                <b>RBD contains 220 amino acid residues</b> with nine cysteine
+                residues and <b>two N-glycosylation sites</b>.
               </div>
               <div className="sect-img">
                 {/* <img
@@ -208,8 +229,8 @@ class Research extends Component {
               <div className="end-content-txt">
                 After being flooded with all the information around COVID-19, we
                 continue looking for topics that correlate to problems stated in
-                the last part. We made a series of iterations along the research
-                to finally have our main genetic components.
+                the last part. We made a <b>series of iterations</b> along the
+                research to finally have our <b>main genetic components</b>.
               </div>
               <div className="selection-division">
                 <div className="antigen-selection">

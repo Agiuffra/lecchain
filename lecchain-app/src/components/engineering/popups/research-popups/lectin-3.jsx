@@ -19,19 +19,27 @@ class Lectin3 extends Component {
             </div>
             <div className="subpopup-content-cnt">
               <div className="subpopup-content-text">
-                When looking for other thermotolerant proteins, we found plant
-                lectins have demonstrated good thermotolerance properties.
+                When looking for other thermotolerant proteins, we found{" "}
+                <b>plant lectins</b> have demonstrated{" "}
+                <b>good thermotolerance properties</b>.
               </div>
               <div className="subpopup-content-text">
-                In one research Pusztai and Grant found heating of seeds at 70°C
-                did not affect lectin activity. Also, higher temperatures were
-                needed to inactivate the antinutritional effects [42] . Indeed,
-                [43] it is reported that temperatures between 119°C and 136°C
-                reduced lectin activity to a large extent. Moreover, for beans
-                that were processed at 102°C, slight reversibility of lectins
-                inactivation was observed after storage for seven weeks. Still,
-                the content of lectins was reduced and the ones treated at
-                temperatures of 136°C did not show any change in lectin content
+                In one research Pusztai and Grant found heating of{" "}
+                <b>seeds at 70°C did not affect lectin activity</b>. Also,
+                higher temperatures were{" "}
+                <b>needed to inactivate the antinutritional effects</b> [42] .
+                Indeed, [43] it is reported that{" "}
+                <b>
+                  temperatures between 119°C and 136°C reduced lectin activity
+                </b>{" "}
+                to a large extent. Moreover, for beans that were processed at
+                102°C, slight reversibility of lectins inactivation was observed
+                after storage for seven weeks. Still, the content of lectins was
+                reduced and the ones{" "}
+                <b>
+                  treated at temperatures of 136°C did not show any change in
+                  lectin content
+                </b>{" "}
                 after storage. In addition, a report based on the study of
                 Jatropha curcas’s lectin activity showed that inactivation by
                 moist heat treatment at 100°C for 20, 40 and 60 min; and dry
@@ -40,11 +48,12 @@ class Lectin3 extends Component {
                 varieties [44].
               </div>
               <div className="subpopup-content-text">
-                Apart from these, plant lectins have also been characterized as
-                potent natural adjuvants that the immunomodulatory agents, and
-                can stimulate the innate and adaptive immune systems. Until
-                2017, the following lectins had applications of immunomodulatory
-                and in vivo experimental models of microbial infections.
+                Apart from these, <b>plant lectins</b> have also been
+                characterized as <b>potent natural adjuvants</b> that the
+                immunomodulatory agents, and can <b>stimulate the innate</b> and
+                <b>adaptive immune systems</b>. Until 2017, the following
+                lectins had applications of immunomodulatory and in vivo
+                experimental models of microbial infections.
               </div>
               <div className="subpopup-content-img">
                 <img
@@ -61,10 +70,11 @@ class Lectin3 extends Component {
             </div>
             <div className="subpopup-content-cnt">
               <div className="subpopup-content-text">
-                Apart from being demonstrated as promising adjuvants, plant
-                lectins have documented thermotolerant properties well. From the
-                list of adjuvants, we look for the ones that have demonstrated
-                evidence joined with antigens.
+                Apart from being demonstrated as{" "}
+                <b>promising adjuvants, plant lectins</b> have documented
+                <b>thermotolerant properties</b> well. From the list of
+                adjuvants, we look for the ones that have demonstrated{" "}
+                <b>evidence joined with antigens</b>.
               </div>
             </div>
           </div>
