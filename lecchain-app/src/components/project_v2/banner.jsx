@@ -12,13 +12,20 @@ const BgElement = Element.BgElement;
 class ProjectBanner extends Component {
   render() {
     return (
-      <div className="project-banner">
-        <div className="Logo">
-          <a href="/">
-            <img src={logo} alt="logo_lecchain" width="150px" />
-          </a>
+      <div className="proj-banner">
+        <div className="lang-sel">
+          <div className="lang-eng">English</div>
+          <div className="lang-esp">Español</div>
+          <div className="lang-que">Quechua</div>
         </div>
-        <Navbar idx="1" project="1" />
+        <div className="project-banner">
+          <div className="Logo">
+            <a href="/">
+              <img src={logo} alt="logo_lecchain" width="150px" />
+            </a>
+          </div>
+          <Navbar idx="1" project="1" />
+        </div>
       </div>
     );
   }

@@ -6,3 +6,9 @@
   padding: 25px 25px;
   background-color: #d9e8ef;
 }
+
+.lang-sel {
+  background-color: #d9e8ef;
+  display: flex;
+  justify-content: flex-end;
+}

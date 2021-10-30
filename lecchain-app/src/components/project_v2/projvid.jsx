@@ -28,7 +28,7 @@ class ProjectVideo extends Component {
           <iframe
             width="1160"
             height="580"
-            src="https://www.youtube.com/embed/bb1_7nj03oA"
+            src="https://www.youtube.com/embed/KNH6QCubAGA"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
