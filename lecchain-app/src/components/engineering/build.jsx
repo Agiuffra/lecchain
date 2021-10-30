@@ -13,7 +13,7 @@ class Build extends Component {
           <div className="bld-sect-contnt">
             <div className="bld-img">
               <img
-                src={process.env.PUBLIC_URL + "/engineering/circuit_design.jpg"}
+                src={process.env.PUBLIC_URL + "/engineering/circuit.png"}
                 alt=""
                 width="70%"
               />

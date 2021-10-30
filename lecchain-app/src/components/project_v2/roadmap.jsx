@@ -17,7 +17,7 @@ class Roadmap extends Component {
         </div>
         <div className="rdmp-img">
           <img
-            src={process.env.PUBLIC_URL + "/project/roadmap.jpg"}
+            src={process.env.PUBLIC_URL + "/project/ROADMAP.png"}
             alt=""
             width="900px"
             className="rdmp-img-img"
