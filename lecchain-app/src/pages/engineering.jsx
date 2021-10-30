@@ -18,9 +18,6 @@ class Engineering extends Component {
         <EngineeringInit />
         <Circuit />
         <Build />
-        {/* <Molecular />
-        <Computational />
-        <BioParts /> */}
         <Experiments />
         <References />
         <Footer />

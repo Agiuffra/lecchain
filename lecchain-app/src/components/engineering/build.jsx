@@ -127,30 +127,30 @@ class Build extends Component {
               Treatment 1 - pGEM-T Easy and pET-28 (b) +
             </div>
             <div className="ctrlcases-img">
-              {/* <img
-                src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
+              <img
+                src={process.env.PUBLIC_URL + "/engineering/pgem_3a.png"}
                 alt=""
                 width="400px"
               />
               <img
-                src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
+                src={process.env.PUBLIC_URL + "/engineering/pet_3b.png"}
                 alt=""
                 width="400px"
-              /> */}
+              />
             </div>
           </div>
           <div className="sect-ctrlcases">
             <div className="ctrlcases-img">
-              {/* <img
-                src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
+              <img
+                src={process.env.PUBLIC_URL + "/engineering/pgem_4a.png"}
                 alt=""
                 width="400px"
               />
               <img
-                src={process.env.PUBLIC_URL + "/engineering/genetic.png"}
+                src={process.env.PUBLIC_URL + "/engineering/pet_4b.png"}
                 alt=""
                 width="400px"
-              /> */}
+              />
             </div>
             <div className="ctrlcases-title">
               Treatment 2 - pGEM-T Easy and pET-28 (b) +

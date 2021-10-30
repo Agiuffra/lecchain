@@ -53,6 +53,14 @@
   font-weight: 600;
 }
 
+.res-sect-text {
+  text-align: justify;
+}
+
+.disc-proposals {
+  text-align: justify;
+}
+
 .res-sect-title:hover {
   color: red;
 }

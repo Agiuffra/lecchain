@@ -31,7 +31,8 @@
 .desgn-cont,
 .metho-cont {
   display: flex;
-  gap: 70px;
+  flex-direction: column;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   margin: 25px 0px;

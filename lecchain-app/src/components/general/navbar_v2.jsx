@@ -32,23 +32,36 @@ class Navbar extends Component {
   }
 
   scrollRoadmap() {
-    Scroll.animateScroll.scrollTo(1300);
+    Scroll.animateScroll.scrollTo(2550);
   }
 
   scrollInfographic() {
-    Scroll.animateScroll.scrollTo(2050);
+    Scroll.animateScroll.scrollTo(4890);
   }
 
   scrollPromVid() {
-    Scroll.animateScroll.scrollTo(2950);
+    Scroll.animateScroll.scrollTo(7300);
   }
 
   scrollProjPres() {
-    Scroll.animateScroll.scrollTo(4140);
+    Scroll.animateScroll.scrollTo(8400);
   }
 
-  scrollExperiments() {
-    Scroll.animateScroll.scrollTo(5000);
+  /* Scroll de Engineering */
+  scrollDesign() {
+    Scroll.animateScroll.scrollTo(650);
+  }
+
+  scrollBuild() {
+    Scroll.animateScroll.scrollTo(1900);
+  }
+
+  scrollTest() {
+    Scroll.animateScroll.scrollTo(5900);
+  }
+
+  scrollReferences() {
+    Scroll.animateScroll.scrollTo(7930);
   }
 
   render() {
@@ -102,22 +115,30 @@ class Navbar extends Component {
               <li onClick={this.scrollDescription}>Description</li>
               <li onClick={this.scrollRoadmap}>Roadmap</li>
               <li onClick={this.scrollInfographic}>Infographic</li>
-              <li onClick={this.scrollPromVid}>Promo video</li>
-              <li onClick={this.scrollProjPres}>Presentation</li>
-              {/* <li onClick={this.scrollSponsors}>Biosafety</li> */}
-              <li onClick={this.scrollExperiments}>Experiments</li>
+              <li onClick={this.scrollPromVid}>Promotional video</li>
+              <li onClick={this.scrollProjPres}>Presentation video</li>
             </ul>
           </div>
           <div
             className={
               this.props.idx === "2"
-                ? "navbar-sel-back-lecchain"
-                : "navbar-nor-back-lecchain"
+                ? "navbar-sel-back-lecchain about-lecchain-button"
+                : "navbar-nor-back-lecchain about-lecchain-button"
             }
           >
             <a className="navbar-link-lecchain" href="/engineering">
               Engineering
             </a>
+            <ul
+              className={
+                this.props.idx === "2" ? "dropdown-lecchain" : "nodisp"
+              }
+            >
+              <li onClick={this.scrollDesign}>Design and Results</li>
+              <li onClick={this.scrollBuild}>Build</li>
+              <li onClick={this.scrollTest}>Test</li>
+              <li onClick={this.scrollReferences}>References</li>
+            </ul>
           </div>
           <div
             className={

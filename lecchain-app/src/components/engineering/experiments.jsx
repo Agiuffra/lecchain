@@ -59,13 +59,6 @@ class Experiments extends Component {
         <div className="exp-metho">
           <div className="metho-title">Methodology</div>
           <div className="metho-cont">
-            <div className="metho-img">
-              <img
-                src={process.env.PUBLIC_URL + "/engineering/methodology.png"}
-                alt=""
-                width="100%"
-              />
-            </div>
             <div className="metho-txt">
               <div>
                 <b>Main goal</b>: To design and implement a candidate
@@ -96,6 +89,13 @@ class Experiments extends Component {
                 Find more information in the Protocols document in the{" "}
                 <b>Document Section</b>.
               </div>
+            </div>
+            <div className="metho-img">
+              <img
+                src={process.env.PUBLIC_URL + "/engineering/methodology.png"}
+                alt=""
+                width="100%"
+              />
             </div>
           </div>
         </div>

@@ -89,7 +89,7 @@ class Optimization extends Component {
                 this.state.develop ? "disc-content-sect show" : "noshow"
               }
             >
-              <div className="res-sect-text">
+              <div className="res-selection-title">
                 How will our chimeric antigen be?
               </div>
               <div className="res-sect-text">
@@ -201,7 +201,7 @@ class Optimization extends Component {
                 this.state.deliver ? "end-content-sect show" : "noshow"
               }
             >
-              <div className="res-sect-text">
+              <div className="res-selection-title">
                 Can we test in silico our chimeric antigen?
               </div>
               <div className="res-sect-text">

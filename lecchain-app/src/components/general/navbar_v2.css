@@ -44,7 +44,7 @@ li {
 
 .dropdown-lecchain li {
   padding: 0.5em 1em;
-  width: 9em;
+  width: 10em;
   text-align: center;
 }
 
@@ -56,13 +56,15 @@ li {
 }
 
 .dropdown-lecchain li:hover {
-  background-color: #4c9e9e;
+  background-color: #2ec5ce;
+  color: white;
   border-radius: 50px;
   transition: 0.3s ease;
 }
 
 .about-lecchain-button {
-  padding: 0px auto;
+  display: flex;
+  justify-content: center;
 }
 
 .about-lecchain-button:hover .dropdown-lecchain {
