@@ -9,18 +9,19 @@ class Product extends Component {
         <div className="prod-title">The Product</div>
         <div className="prod-sect">
           <div className="prod-sect-title">Product Validation</div>
+          <div className="sect-cont-txt">
+            Through the stakeholder interviews, we were able to find the
+            necessity of developing an accessible manner to facilitate the
+            storage and distribution of vaccines. We were able to recognize that
+            it all begins with the lack of decentralization of the country,
+            which means that all the doses only arrive in the capital of Peru.
+            This, added to the demographic limitation of the country and the
+            fact that there are not enough freezing centers, generates a delay
+            in rural vaccination. For more feedback and all comments received
+            see Integrated Human Practices.
+          </div>
+          <br />
           <div className="prod-sect-content">
-            <div className="sect-cont-txt">
-              Through the stakeholder interviews, we were able to find the
-              necessity of developing an accessible manner to facilitate the
-              storage and distribution of vaccines. We were able to recognize
-              that it all begins with the lack of decentralization of the
-              country, which means that all the doses only arrive in the capital
-              of Peru. This, added to the demographic limitation of the country
-              and the fact that there are not enough freezing centers, generates
-              a delay in rural vaccination. For more feedback and all comments
-              received see Integrated Human Practices.
-            </div>
             <div className="sect-cont-img">
               <img
                 src={process.env.PUBLIC_URL + "/entrepreneurship/piramid.png"}
