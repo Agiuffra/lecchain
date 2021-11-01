@@ -14,9 +14,9 @@ class Business extends Component {
           scalability and the target audience.
         </div>
         <div className="business-sect">
-          <div className="sect-img">
+          <div className="e-sect-img">
             <img
-              src={process.env.PUBLIC_URL + "/entrepreneurship/canvas.jpg"}
+              src={process.env.PUBLIC_URL + "/entrepreneurship/BMC.png"}
               alt=""
               width="100%"
             />
@@ -32,18 +32,18 @@ class Business extends Component {
               the counterpart: strengths and opportunities.
             </div>
           </div>
-          <div className="sect-img">
+          <div className="e-sect-img">
             <img
-              src={process.env.PUBLIC_URL + "/entrepreneurship/swot.jpg"}
+              src={process.env.PUBLIC_URL + "/entrepreneurship/SWOT.png"}
               alt=""
-              width="700px"
+              width="900px"
             />
           </div>
         </div>
         <div className="business-sect">
-          <div className="sect-img">
+          <div className="e-sect-img">
             <img
-              src={process.env.PUBLIC_URL + "/entrepreneurship/canvas.jpg"}
+              src={process.env.PUBLIC_URL + "/entrepreneurship/TA.png"}
               alt=""
               width="700px"
             />
@@ -66,7 +66,7 @@ class Business extends Component {
               types: internal, external and public stakeholders.
             </div>
           </div>
-          <div className="sect-img">
+          <div className="e-sect-img">
             <img
               src={
                 process.env.PUBLIC_URL + "/entrepreneurship/stakeholders.jpg"
@@ -77,7 +77,7 @@ class Business extends Component {
           </div>
         </div>
         <div className="business-sect">
-          <div className="sect-img">
+          <div className="e-sect-img">
             <img
               src={process.env.PUBLIC_URL + "/entrepreneurship/competitors.jpg"}
               alt=""

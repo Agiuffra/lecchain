@@ -25,10 +25,18 @@ class Extra extends Component {
               alt=""
               width="500px"
             />
+          </div>
+          <br />
+          <div className="ext-sect-img">
             <img
-              src={process.env.PUBLIC_URL + "/entrepreneurship/datatex.jpeg"}
+              src={process.env.PUBLIC_URL + "/entrepreneurship/dataton_b.png"}
               alt=""
-              width="500px"
+              width="700px"
+            />
+            <img
+              src={process.env.PUBLIC_URL + "/entrepreneurship/dataton_c.png"}
+              alt=""
+              width="800px"
             />
           </div>
         </div>

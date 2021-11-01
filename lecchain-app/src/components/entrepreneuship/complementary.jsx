@@ -30,6 +30,23 @@ class Complementary extends Component {
               width="700px"
             />
           </div>
+          <br />
+          <div className="desc-sect-img">
+            <img
+              src={
+                process.env.PUBLIC_URL + "/entrepreneurship/certificate_a.png"
+              }
+              alt=""
+              width="700px"
+            />
+            <img
+              src={
+                process.env.PUBLIC_URL + "/entrepreneurship/certificate_b.png"
+              }
+              alt=""
+              width="700px"
+            />
+          </div>
         </div>
         <div className="comp-desc-sect">
           <div className="desc-sect-title">Pre-incuva BootCamp #03</div>

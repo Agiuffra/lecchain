@@ -41,9 +41,12 @@
   text-align: center;
 }
 
-.sect-img {
+.e-sect-img {
   flex: 2;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: #ffffff;
+  border-radius: 25px;
+  padding: 15px; */
 }

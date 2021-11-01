@@ -25,7 +25,7 @@ class Product extends Component {
               <img
                 src={process.env.PUBLIC_URL + "/entrepreneurship/piramid.png"}
                 alt=""
-                width="700px"
+                width="890px"
               />
             </div>
           </div>

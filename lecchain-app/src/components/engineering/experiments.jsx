@@ -48,11 +48,16 @@ class Experiments extends Component {
               </div>
             </div>
             <div className="desgn-img">
-              {/* <img
-                src={process.env.PUBLIC_URL + "/engineering/design.png"}
+              <img
+                src={process.env.PUBLIC_URL + "/engineering/exp_a.png"}
                 alt=""
                 width="45%"
-              /> */}
+              />
+              <img
+                src={process.env.PUBLIC_URL + "/engineering/exp_b.png"}
+                alt=""
+                width="45%"
+              />
             </div>
           </div>
         </div>
