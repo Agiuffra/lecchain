@@ -10,13 +10,32 @@ const { Element } = BannerAnim;
 const BgElement = Element.BgElement;
 
 class ProjectBanner extends Component {
+  constructor(props){
+    super(props);
+  }
+
+  handleLangChangeES = () => {
+    var lang = "ES";
+    this.props.onSelectLanguage(lang);            
+  }
+
+  handleLangChangeEN = () => {
+    var lang = "EN";
+    this.props.onSelectLanguage(lang);            
+  }
+
+  handleLangChangeQU = () => {
+    var lang = "QU";
+    this.props.onSelectLanguage(lang);            
+  }
+
   render() {
     return (
       <div className="proj-banner">
         <div className="lang-sel">
-          <div className="lang-eng">English</div>
-          <div className="lang-esp">Español</div>
-          <div className="lang-que">Quechua</div>
+          <div className="lang-eng" onClick={this.handleLangChangeEN}>English</div>
+          <div className="lang-esp" onClick={this.handleLangChangeES}>Español</div>
+          <div className="lang-que" onClick={this.handleLangChangeQU}>Quechua</div>
         </div>
         <div className="project-banner">
           <div className="Logo">

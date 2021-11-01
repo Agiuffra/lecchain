@@ -11,7 +11,6 @@ import DivNInc from "../components/human_practices/divninc";
 import Footer from "../components/general/footer";
 
 class HumanPractices extends Component {
-  /*<SDG />*/
   render() {
     return (
       <main>

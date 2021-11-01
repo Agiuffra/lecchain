@@ -34,10 +34,43 @@
   margin-bottom: 15px;
 }
 
+
+
 .comm-img {
   text-align: center;
   padding: 20px;
 }
+
+.comm-img div {
+  /*background-color: rgba(0,0,0,0.5);*/
+  width: 260px;
+  height: 50px;
+  position: absolute;
+  margin-left: 51%;
+}
+
+.img-user-btn {
+  margin: -445px 0px 0px 0px;
+}
+
+.img-health-btn {
+  margin: -390.5px 0px 0px 0px;
+}
+
+.img-bio-btn {
+  margin: -334px 0px 0px 0px;
+}
+
+.img-infra-btn {
+  margin: -269px 0px 0px 0px;
+}
+
+.comm-img div:hover {
+  background-color: rgba(244, 245, 247, 0.5);
+  transition: 0.3s ease;
+}
+
+
 
 .comm-sect {
   text-align: center;
@@ -55,7 +88,7 @@
 .comm-sect-person {
   display: flex;
   padding: 20px 0px;
-  padding-left: 75px;
+  padding-left: 40px;
   font-size: 20px;
 }
 

@@ -18,7 +18,7 @@ class IHPractices extends Component {
           <img
             src={process.env.PUBLIC_URL + "/humanpract/iteracion.png"}
             alt=""
-            width="700px"
+            width="900px"
           />
         </div>
       </div>

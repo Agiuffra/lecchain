@@ -40,3 +40,10 @@
 .sect-txt-text {
   text-align: center;
 }
+
+.sect-img {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -28,9 +28,8 @@
   flex: 1;
   display: flex;
   padding: 0px 25px;
-  justify-content: center;
+  text-align: justify;
   align-items: center;
-  text-align: center;
 }
 
 .sect-cont-img {
