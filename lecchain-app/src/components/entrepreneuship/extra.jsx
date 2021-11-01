@@ -8,7 +8,6 @@ class Extra extends Component {
       <div className="entrep-extra">
         <div className="extra-sect">
           <div className="ext-sect-txt">
-            <div className="ext-sect-title">Datatón</div>
             <div className="ext-sect-text">
               Datatón was the name that the Peruvian Ministry of Health gives to
               the competition whose goal was to propose an innovative solution
@@ -35,7 +34,6 @@ class Extra extends Component {
         </div>
         <div className="extra-sect">
           <div className="ext-sect-txt">
-            <div className="ext-sect-title">CONCYTEC</div>
             <div className="ext-sect-text">
               CONCYTEC is the acronym of “Consejo Nacional de Ciencia,
               Tecnología e Innovación Tecnología'' which its main goal is to

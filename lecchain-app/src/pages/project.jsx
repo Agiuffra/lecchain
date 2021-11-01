@@ -10,11 +10,18 @@ import Footer from "../components/general/footer";
 import "./project.css";
 
 class Project extends Component {
+  
+  state = { language: '' }
+
+  handleLanguage = (langValue) => {
+    this.setState({language: langValue});
+  }
+
   render() {
     return (
       <main className="project-lecchain">
-        <ProjectBanner />
-        <Initial />
+        <ProjectBanner onSelectLanguage={this.handleLanguage} />
+        <Initial onChange={this.language} />
         <Description />
         <Roadmap />
         <Infographic />

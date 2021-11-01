@@ -6,6 +6,10 @@
   padding: 75px;
 }
 
+.humprac-public b {
+  color: #2ec5ce;
+}
+
 .public-title {
   color: #2ec5ce;
   font-size: 36px;
@@ -14,10 +18,29 @@
   text-align: left;
 }
 
+.public-subtitle {
+  color: #2ec5ce;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.public-subsubtitle {
+  color: #2ec5ce;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
 .public-text {
   color: #18191f;
   font-size: 20px;
   font-weight: regular;
   text-align: justify;
   margin-bottom: 15px;
+}
+
+.public-img {
+  text-align: center;
+  padding: 20px;
 }

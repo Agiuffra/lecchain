@@ -19,9 +19,9 @@ class DivNInc extends Component {
             indigenous languages (Quechua), people with visual, motor or physical 
             disabilities.</b>
           </p>
-          <p>
-            <b> Quechua, our native language.</b>
-          </p>
+        </div>
+        <div className="divninc-subsubtitle">
+          Quechua, our native language.
         </div>
         <div className="divninc-subtitle">
           Is science available to all parts of the country?
@@ -57,6 +57,16 @@ class DivNInc extends Component {
             involve the Peruvian community in our project and in science. 
           </p>
         </div>
+        <div className="divninc-img">
+          <img
+            src={process.env.PUBLIC_URL + "/humanpract/quechua.png"}
+            alt=""
+            width="700px"
+          />
+        </div>
+        <div className="divninc-subsubtitle">
+          How to survive in the lab?
+        </div>
         <div className="divninc-subtitle">
           Are all the laboratories adapted for people with physical disabilities?
         </div>
@@ -81,10 +91,22 @@ class DivNInc extends Component {
             </b>. The complete “Survival Guide'' is found in the additional 
             documents resources. 
           </p>
+        </div>
+        <div className="divninc-img">
+          <img
+            src={process.env.PUBLIC_URL + "/humanpract/labs.png"}
+            alt=""
+            width="700px"
+          />
+        </div>
+        <div className="divninc-text">
           <p>
             For downloading this manual, please go to <b> Laboratory Manual </b> 
             in the <b> Document Section</b>.
           </p>
+        </div>
+        <div className="divninc-subsubtitle">
+          Language doesn’t mean to speak
         </div>
         <div className="divninc-subtitle">
           What happens when you can not see science?
@@ -108,6 +130,9 @@ class DivNInc extends Component {
             Additionally, it will serve as an <b> example for other science groups </b>
             to start including all group of people. 
           </p>
+        </div>
+        <div className="divninc-subsubtitle">
+          Science has to be felt, not read
         </div>
         <div className="divninc-subtitle">
           Is reading a barrier for science?

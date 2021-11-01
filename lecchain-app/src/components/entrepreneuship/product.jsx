@@ -25,7 +25,7 @@ class Product extends Component {
               <img
                 src={process.env.PUBLIC_URL + "/entrepreneurship/piramid.png"}
                 alt=""
-                height="500px"
+                width="700px"
               />
             </div>
           </div>
@@ -39,15 +39,6 @@ class Product extends Component {
               proved to be an excellent mucosal adjuvant (see Engineering
               cycle). Hence, the application method is as simple as an oral
               inoculation.
-            </div>
-            <div className="sect-cont-img">
-              <img
-                src={
-                  process.env.PUBLIC_URL + "/entrepreneurship/aplication.png"
-                }
-                alt=""
-                height="450px"
-              />
             </div>
           </div>
         </div>

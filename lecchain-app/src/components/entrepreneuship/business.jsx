@@ -18,16 +18,8 @@ class Business extends Component {
             <img
               src={process.env.PUBLIC_URL + "/entrepreneurship/canvas.jpg"}
               alt=""
-              width="700px"
+              width="100%"
             />
-          </div>
-          <div className="sect-txt">
-            <div className="sect-txt-title">Canvas</div>
-            <div className="sect-txt-text">
-              The Business Model Canvas was used, which summarizes in nine
-              sections the four main areas: customers, supply, infrastructure
-              and economic viability.
-            </div>
           </div>
         </div>
         <div className="business-sect">
