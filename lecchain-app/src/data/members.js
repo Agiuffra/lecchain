@@ -127,7 +127,7 @@ const members = [
         work: "Wet lab, Collaborations",
         interests: "Synthetic Biology, Bioinformatics.",
         description: "Last year Bioengineering student at University of Engineering and Technology - UTEC. Interested in the investigation of new methods and solutions to prevention and treatment of deseases through synthetic biology and bioinformatics.",
-        image: "/team/default.jpg"
+        image: "/team/Valeria.png"
     },
     {
         id: 13,
